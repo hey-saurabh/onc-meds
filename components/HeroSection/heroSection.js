@@ -4,8 +4,8 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <>
-      <div className={`pageContainer ${styles.container}`}>
+    <div className={`${styles.mainContainer}`}>
+      <div className={`pageContainer`}>
         <div>
           <h1>
 
@@ -17,7 +17,7 @@ const HeroSection = () => {
           </Row>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
