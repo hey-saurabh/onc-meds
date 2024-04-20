@@ -2,32 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+:root {
+  --primary:#4F46E5;
+  --primary-faded: #9590EF;
+  --primary-dark: #261fad;
+
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(224,231,255);
+  background: linear-gradient(180deg, rgba(224,231,255,1) 0%, rgba(224,231,255,1) 35%, rgba(180,166,194,1) 100%);
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pageContainer{
+  max-width: 80vw;
+  margin: auto;
+}
+
+.button{
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+}
+
+.button-white{
+  background: white;
+  color: #334155;
+  border: 1px solid #CBD5E1;
+}
+
+.button-white:hover{
+  background-color: rgb(233, 233, 233);
+}
+
+.button-primary{
+  background-color: var(--primary);
+  color: white;
+}
+
+.button-primary:hover{
+  background-color: var(--primary-dark);
+}
+
+
+.button-primary:disabled {
+  background-color: var(--primary-faded);
+  color: white;
+}
+
+@media (max-width: 640px){
+  .pageContainer{
+    max-width: 90vw;
+    margin: auto;
+  }
+
 }

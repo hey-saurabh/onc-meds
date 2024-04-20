@@ -1,0 +1,80 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+ 
+
+
+  .navbar_inner{
+      width: 100%;
+      display: flex;
+      align-items: center; 
+      justify-content: space-between;
+      
+      .logoMobile{
+          display: none;
+      }
+
+      .nav_buttons{
+          display: flex;
+          gap: 24px;
+
+          .desktopIcon{
+              font-size: 40px;
+              color: #64748B;
+              text-decoration: none;
+          }
+
+          .desktopIcon:hover{
+              color: var(--primary);
+          }
+
+          // .mobileIcon{
+          //     display: none;
+          // }
+      }
+
+      .hamburger{
+          display: none;
+      }
+  }
+
+
+}
+
+@media (max-width:640px) {
+  .navbar{
+      display: flex;
+      align-items: center;
+      min-height: 60px;
+
+      .navbar_inner{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .logo{
+              display: none;
+          }
+          .logoMobile{
+              display: block;
+          }
+
+          .nav_buttons{
+
+              .desktopIcon{
+                  display: block;
+              }
+              // .mobileIcon{
+              //     display: block;
+              // }
+          }
+
+          .hamburger{
+              display: none;
+          }
+      }
+
+  }
+}
