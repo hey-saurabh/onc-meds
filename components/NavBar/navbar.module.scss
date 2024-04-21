@@ -1,8 +1,9 @@
 .navbar{
-  display: flex;
-  align-items: center;
-  min-height: 60px;
- 
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    background-color: #FFFFFF;
+    backdrop-filter: blur(10px);
 
 
   .navbar_inner{

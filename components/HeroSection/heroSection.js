@@ -1,16 +1,58 @@
 'use client'
 import { useRouter } from "next/router";
 import styles from "./heroSection.module.scss";
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Image from "next/image";
+import { UncontrolledCarousel } from "reactstrap"
 
 const HeroSection = () => {
   const router = useRouter();
   
   return (
     <div className={`${styles.mainContainer}`}>
+      <div className={styles.carouselcontainer}>
+          <UncontrolledCarousel
+            fade={true}
+            interval={4000}
+            dark={true}
+            className={`max-w-screen`}
+            items={[
+              {
+                altText: 'Slide 1',
+                key: 1,
+                src: '/images/sliderImages/slide1.jpg'
+              },
+              {
+                altText: 'Slide 2',
+                key: 2,
+                src: '/images/sliderImages/slide2.jpg'
+              },
+              {
+                altText: 'Slide 3',
+                key: 3,
+                src: '/images/sliderImages/slide3.jpg'
+              },
+              {
+                altText: 'Slide 4',
+                key: 1,
+                src: '/images/sliderImages/slide4.jpg'
+              },
+              {
+                altText: 'Slide 5',
+                key: 2,
+                src: '/images/sliderImages/slide5.jpg'
+              },
+              {
+                altText: 'Slide 6',
+                key: 3,
+                src: '/images/sliderImages/slide6.jpg'
+              }
+            ]}
+          />
+        </div>
       <div className={`pageContainer ${styles.container}`}>
         <div className={`${styles.heroContentText}`}>
-            <div className={`${styles.title}`}>ONC Meds</div>
+            <div className={`${styles.title}`}>Onc Meds</div>
             <div className={`${styles.subTitle}`}>OncMeds is your one-stop shop for all things related to medicinal plants in India that have potential to fight cancer! This resource is packed with information about these plants, what medicinal properties they have, and how they might be used in cancer treatments. Whether you're a researcher, doctor, or just curious about plant-based options for cancer care, OncMeds can be your guide.</div>
             <div className={`${styles.subsubTitle}`}>Explore our comprehensive resource on Indian medicinal plants with potential benefits for cancer patients. We delve into both traditional Ayurvedic wisdom and the latest scientific findings, offering a one-stop shop for valuable insights. <br/></div>
         </div>

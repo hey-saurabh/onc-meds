@@ -1,20 +1,42 @@
 .mainContainer {
   height: 92vh;
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,227,245,1) 35%, rgba(213,223,255,1) 100%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .container{
-    padding: 48px 0;
+  .carouselcontainer {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row !important;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
+}
+  .container{
+    padding: 56px 32px;
+    background-color: rgba(255,255,255,0.8);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(5px);
+    
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
 
     .heroContentText{
+        
         display: flex;
         flex-direction: column;
         gap: 16px;
         align-items: center;
+        line-height: 40px;
         
         .title{
             font-weight: 600;
@@ -24,15 +46,14 @@
             text-align: center;
             font-weight: 400;
             font-size: 20px;
-            color: #64748B;
+            color: #5a687d;
         }
         .subsubTitle {
             text-align: center;
             font-weight: 400;
             font-size: 20px;
-            color: #64748B;
+            color: #5a687d;
             margin-bottom: 32px;
-
         }
     }
     .heroContentCta{
@@ -43,9 +64,11 @@
       align-items: center;
 
       .ctaText{
-          font-size: 16px;
-          color: #334155;
-          text-align: center;
+        margin-top: 22px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        color: #5a687d;
       }
 
       .button{
@@ -59,22 +82,23 @@
   }
 } 
 
-      @media(max-width:640px){
-          .heroContent{
-              text-align: center;
-          }
-      }
 
-      .heroImg{
-          bottom: 0;
-          max-width: 100%;
-          img{
-              max-width: 100%;
-          }
-      }
-      .heroImgMobile{
-          display: none;
-      }
+@media(max-width:640px){
+    .heroContent{
+        text-align: center;
+    }
+}
+
+.heroImg{
+    bottom: 0;
+    max-width: 100%;
+    img{
+        max-width: 100%;
+    }
+}
+.heroImgMobile{
+    display: none;
+}
 
 
 @media(max-width:640px){
