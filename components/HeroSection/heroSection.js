@@ -3,7 +3,8 @@ import { useRouter } from "next/router";
 import styles from "./heroSection.module.scss";
 import React, { useEffect, useState } from 'react'
 import Image from "next/image";
-import { UncontrolledCarousel } from "reactstrap"
+import { Navbar, UncontrolledCarousel } from "reactstrap"
+import Type from "../TypeWriter";
 
 const HeroSection = () => {
   const router = useRouter();
@@ -11,9 +12,9 @@ const HeroSection = () => {
   return (
     <div className={`${styles.mainContainer}`}>
       <div className={styles.carouselcontainer}>
-          <UncontrolledCarousel
+          {/* <UncontrolledCarousel
             fade={true}
-            interval={4000}
+            interval={3000}
             dark={true}
             className={`max-w-screen`}
             items={[
@@ -48,11 +49,16 @@ const HeroSection = () => {
                 src: '/images/sliderImages/slide6.jpg'
               }
             ]}
-          />
+          /> */}
+          <video autoPlay loop muted className={styles.video_bg}>
+            <source src="/vid/vid_2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       <div className={`pageContainer ${styles.container}`}>
         <div className={`${styles.heroContentText}`}>
             <div className={`${styles.title}`}>Onc Meds</div>
+            <div className={`${styles.subTitle}`}><Type /></div>
             <div className={`${styles.subTitle}`}>OncMeds is your one-stop shop for all things related to medicinal plants in India that have potential to fight cancer! This resource is packed with information about these plants, what medicinal properties they have, and how they might be used in cancer treatments. Whether you're a researcher, doctor, or just curious about plant-based options for cancer care, OncMeds can be your guide.</div>
             <div className={`${styles.subsubTitle}`}>Explore our comprehensive resource on Indian medicinal plants with potential benefits for cancer patients. We delve into both traditional Ayurvedic wisdom and the latest scientific findings, offering a one-stop shop for valuable insights. <br/></div>
         </div>

@@ -2,9 +2,8 @@
     display: flex;
     align-items: center;
     min-height: 60px;
-    background-color: #FFFFFF;
-    backdrop-filter: blur(10px);
-
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.3);
 
   .navbar_inner{
       width: 100%;
@@ -12,6 +11,9 @@
       align-items: center; 
       justify-content: space-between;
       
+      .logo {
+        padding: 10px;
+      }
       .logoMobile{
           display: none;
       }

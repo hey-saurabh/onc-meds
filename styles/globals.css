@@ -56,6 +56,7 @@ a {
   border-radius: 8px;
   font-size: 14px;
   border: none;
+  width: 20%;
 }
 
 .button-white{
@@ -83,10 +84,15 @@ a {
   color: white;
 }
 
+
 @media (max-width: 640px){
   .pageContainer{
     max-width: 90vw;
     margin: auto;
+  }
+
+  .button{
+    width: 50%;
   }
 
 }
