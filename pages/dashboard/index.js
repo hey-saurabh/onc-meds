@@ -35,7 +35,7 @@ const Dashboard = () => {
       </div>
       <div className={styles.searchboxContainer}>
         <Select 
-          className='w-2/5'
+          className='w-full'
           placeholder={"Select Database..."}
           options={[
             {
@@ -57,7 +57,7 @@ const Dashboard = () => {
           ]}
         />
         <Select 
-          className='w-2/5'
+          className='w-full'
           placeholder={"Select Criteria..."}
           options={[
             {
@@ -75,7 +75,7 @@ const Dashboard = () => {
           ]}
         />
         <Input 
-          style={{ width: "75%", fontSize: 15 }} 
+          style={{ width: "100%", fontSize: 15 }} 
           placeholder="Search for Plants...."
           onChange={(e) => setSearchValue(e.target.value)}
           value={searchValue}

@@ -10,10 +10,10 @@ const Navbar = () => {
             <div style={{borderBottom:'1px solid #E9EEF5'}} className={`${styles.navbar}`}>
                 <div className={`${styles.navbar_inner} pageContainer`}>
                     <Link className={`${styles.logo}`} href="/">
-                        <img style={{width:'160px'}} src='images/onc_meds_logo.png' />
+                        <img style={{width:'130px'}} src='images/onc_meds_logo.png' />
                     </Link>
                     <Link className={`${styles.logoMobile}`} href="/">
-                        <img style={{width:'160px'}} src='images/onc_meds_logo.png' />
+                        <img style={{width:'130px'}} src='images/onc_meds_logo.png' />
                     </Link>
 
                     <div className={`${styles.nav_buttons}`} >
