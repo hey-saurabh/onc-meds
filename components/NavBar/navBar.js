@@ -1,23 +1,28 @@
 import React from 'react'
 import styles from "./navbar.module.scss"
 import Link from 'next/link';
-import { githubIcon } from '@/utils/iconClasses';
+import { closeBulb, githubIcon, githubLight, openBulb } from '@/utils/iconClasses';
+import { useRouter } from 'next/router';
 
-const Navbar = () => {
+const Navbar = ({ toggleDark, isDark }) => {
+
+    const router = useRouter();
+
 
     return (
         <>
             <div style={{borderBottom:'1px solid #E9EEF5'}} className={`${styles.navbar}`}>
                 <div className={`${styles.navbar_inner} pageContainer`}>
                     <Link className={`${styles.logo}`} href="/">
-                        <img style={{width:'130px'}} src='images/onc_meds_logo.png' />
+                        <img style={{width:'130px'}} src={isDark ? 'images/onc_meds_logo_white.png' : 'images/onc_meds_logo.png'} />
                     </Link>
                     <Link className={`${styles.logoMobile}`} href="/">
-                        <img style={{width:'130px'}} src='images/onc_meds_logo.png' />
+                    <img style={{width:'130px'}} src={isDark ? 'images/onc_meds_logo_white.png' : 'images/onc_meds_logo.png'} />
                     </Link>
 
                     <div className={`${styles.nav_buttons}`} >
-                        <a className={`${styles.desktopIcon}`} href='https://github.com/hey-saurabh/onc-meds' target='_blank'>{githubIcon}</a>
+                        {router.asPath == "/" ? "" : <a><button onClick={toggleDark}>{openBulb}</button></a>}
+                        <a className={`${styles.desktopIcon}`} href='https://github.com/hey-saurabh/onc-meds' target='_blank'>{isDark ? githubLight : githubIcon}</a>
                     </div>
 
                 </div>
