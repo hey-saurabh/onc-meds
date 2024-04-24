@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import styles from "./dashboard.module.scss";
-import { Breadcrumb, BreadcrumbItem, Input } from 'reactstrap';
-import Select from 'react-select'
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Ayurvedic, FDA } from './misc';
 import TableComponent from '@/components/TableComponent';
+import { Input, Select } from 'antd/lib';
 
 const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   const [searchValue, setSearchValue] = useState("");
-  const [database, setDatabase] = useState("");
-  const [criteria, setCriteria] = useState("");
+  const [database, setDatabase] = useState(null);
+  const [criteria, setCriteria] = useState(null);
   const [isSearch, setIsSearch] = useState(false);
   const [data, setData] = useState([]);
 
@@ -61,8 +61,9 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
         <div className={styles.searchboxContainer}>
           <Select 
             className='w-full'
-            placeholder={"Select Database..."}
+            placeholder="Select Database..."
             value={database}
+            size='large'
             onChange={(e) => setDatabase(e)}
             options={[
               {
@@ -87,6 +88,7 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
             className='w-full'
             placeholder={"Select Criteria..."}
             value={criteria}
+            size='large'
             onChange={(e) => setCriteria(e)}
             options={[
               {
@@ -104,7 +106,8 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
             ]}
           />
           <Input 
-            style={{ width: "100%", fontSize: 15 }} 
+            style={{ width: "100%", }} 
+            size='large'
             placeholder="Search for Plants...."
             onChange={(e) => setSearchValue(e.target.value)}
             value={searchValue}
@@ -121,10 +124,10 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   } else {
     return (
       <div className={`pageContainer ${styles.dashboardContainer}`}>
-        <div className={styles.searchboxContainer}>
+        <div className={styles.searchboxContainer2}>
           <Select 
             className='w-full'
-            placeholder={"Select Database..."}
+            placeholder="Select Database..."
             options={[
               {
                 label: "All Database",
@@ -173,7 +176,7 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
         </div>
         
         <div className={styles.TableContainer}>
-        <TableComponent data={Ayurvedic} isDark={isDark} toggleDark={toggleDark} />
+        <TableComponent data={FDA} isDark={isDark} toggleDark={toggleDark} />
         </div>
         <div className={styles.imageOverlay} />
   

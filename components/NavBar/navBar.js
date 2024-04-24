@@ -17,7 +17,7 @@ const Navbar = ({ toggleDark, isDark }) => {
                         <img style={{width:'130px'}} src={isDark ? 'images/onc_meds_logo_white.png' : 'images/onc_meds_logo.png'} />
                     </Link>
                     <Link className={`${styles.logoMobile}`} href="/">
-                    <img style={{width:'130px'}} src={isDark ? 'images/onc_meds_logo_white.png' : 'images/onc_meds_logo.png'} />
+                        <img style={{width:'130px'}} src={isDark ? 'images/onc_meds_logo_white.png' : 'images/onc_meds_logo.png'} />
                     </Link>
 
                     <div className={`${styles.nav_buttons}`} >

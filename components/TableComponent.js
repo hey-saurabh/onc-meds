@@ -1,10 +1,31 @@
-import React from 'react'
-import { Table } from 'reactstrap'
+import { Pagination, Table } from 'antd/lib';
+import React, { useState } from 'react'
+// import { Table } from 'reactstrap'
+import { DataGrid } from '@mui/x-data-grid';
 
 const TableComponent = (props) => {
+  const [current, setCurrent] = useState(1);
+
+  const columns = [
+    { field: 'id', headerName: 'ID', width: 70 },
+    { field: 'scientific_name', headerName: 'Scientific Name', width: 260 },
+    { field: 'common_name', headerName: 'Common Name', width: 350 },
+    { field: 'type_of_cancer', headerName: 'Type of Cancer', width: 350 },
+  ];
   return (
     <div>
-      <Table responsive dark={props.isDark}>
+      <DataGrid
+        rows={props.data}
+        columns={columns}
+        initialState={{
+          pagination: {
+            paginationModel: { page: 0, pageSize: 5 },
+          },
+        }}
+        pageSizeOptions={[5, 10]}
+        checkboxSelection
+      />
+      {/* <Table dark={props.isDark}>
         <thead className='sticky-top'>
           <tr>
             <th style={{ width: "80px", textAlign: "center"}}>
@@ -42,7 +63,7 @@ const TableComponent = (props) => {
             )})
           }
         </tbody>
-      </Table>
+      </Table> */}
     </div>
   )
 }

@@ -1,5 +1,6 @@
 export const FDA = [
   {
+   "id": 1,
    "scientific_name": "Camptotheca acuminata",
    "common_name": "Happy Tree",
    "type_of_cancer": "Gastrointestinal, ovarian and small lung cancer",
@@ -12,6 +13,7 @@ export const FDA = [
    "image": "Camptotheca_acuminata.jpeg"
   },
   {
+   "id": 2,
    "scientific_name": "Catharanthus roseus",
    "common_name": "Sadabahar,Nayantara,Vinca rosea",
    "type_of_cancer": "Leukemia, breast cancer",
@@ -24,6 +26,7 @@ export const FDA = [
    "image": "Catharanthus_roseus.jpeg"
   },
   {
+   "id": 3,
    "scientific_name": "Cephalotaxus harringtonii",
    "common_name": "Japanese Plum Yew or Cowtail Pine",
    "type_of_cancer": "Chronic myeloid Leukemia",
@@ -36,6 +39,7 @@ export const FDA = [
    "image": "Cephalotaxus_harringtonii.jpeg"
   },
   {
+   "id": 4,
    "scientific_name": "Ocimum sanctum",
    "common_name": "Tulsi",
    "type_of_cancer": "Skin, liver, oral, and lung cancers",
@@ -48,6 +52,7 @@ export const FDA = [
    "image": "Ocimum_sanctum.jpeg"
   },
   {
+   "id": 5,
    "scientific_name": "Podophyllum peltatum",
    "common_name": "Mayapple ",
    "type_of_cancer": "Leukemia ",
@@ -60,6 +65,7 @@ export const FDA = [
    "image": "Podophyllum_peltatum.jpeg"
   },
   {
+    "id": 6,
    "scientific_name": "Taxus brevifolia",
    "common_name": "Mountain Mahogany",
    "type_of_cancer": "Breast, ovarian, lung, Pancreatic",
@@ -72,6 +78,7 @@ export const FDA = [
    "image": "Taxus_brevifolia.jpeg"
   },
   {
+   "id": 7,
    "scientific_name": "Taxus Wallichiana",
    "common_name": "Himalayan Yew",
    "type_of_cancer": "Gastroesophageal, endometrial,cervical, prostate, and head and neck cancer",
@@ -84,6 +91,7 @@ export const FDA = [
    "image": "Taxus_Wallichiana.jpeg"
   },
   {
+   "id": 8,
    "scientific_name": "Withania somnifera",
    "common_name": "Ashwagandha , Indian Winter cherry",
    "type_of_cancer": "Human prostate cancer, breast cancer,cervical carcinoma,pancreatic cancer",
