@@ -1,20 +1,29 @@
-import { Pagination, Table } from 'antd/lib';
 import React, { useState } from 'react'
 // import { Table } from 'reactstrap'
-import { DataGrid } from '@mui/x-data-grid';
+import { DataGrid, GridActionsCellItem } from '@mui/x-data-grid';
+import { EyeOutlined } from '@ant-design/icons/lib';
+import { LinkTab } from '@/utils/iconClasses';
 
 const TableComponent = (props) => {
   const [current, setCurrent] = useState(1);
 
   const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'scientific_name', headerName: 'Scientific Name', width: 260 },
+    { field: 'id', headerName: 'S.No.', width: 50 },
+    { field: 'scientific_name', headerName: 'Scientific Name', width: 200 },
     { field: 'common_name', headerName: 'Common Name', width: 350 },
-    { field: 'type_of_cancer', headerName: 'Type of Cancer', width: 350 },
+    { field: 'type_of_cancer', headerName: 'Type of Cancer', width: 450 },
+    {
+      field: 'actions',
+      type: 'actions',
+      width: 200,
+      getActions: () => [
+        <GridActionsCellItem icon={<EyeOutlined />} label="Edit" key={0} />,
+      ],
+    },
   ];
   return (
     <div>
-      <DataGrid
+      {/* <DataGrid
         rows={props.data}
         columns={columns}
         initialState={{
@@ -23,8 +32,8 @@ const TableComponent = (props) => {
           },
         }}
         pageSizeOptions={[5, 10]}
-        checkboxSelection
-      />
+        checkboxSelection={false}
+      /> */}
       {/* <Table dark={props.isDark}>
         <thead className='sticky-top'>
           <tr>
@@ -64,6 +73,55 @@ const TableComponent = (props) => {
           }
         </tbody>
       </Table> */}
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
+        <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
+            <tr>
+                <th scope="col" className="px-6 py-3">
+                    S.No.
+                </th>
+                <th scope="col" className="px-6 py-3">
+                    Scientific Name
+                </th>
+                <th scope="col" className="px-6 py-3">
+                    Common name
+                </th>
+                <th scope="col" className="px-6 py-3">
+                    Type of Cancer
+                </th>
+                <th scope="col" className="px-6 py-3">
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {props.data.map((item, index) => {
+              return (
+                <tr class="bg-sky-950 border-b border-blue-400" key={item.id}>
+                  <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                      {item.id}
+                  </th>
+                  <td className="px-6 py-4">
+                      {item.scientific_name}
+                  </td>
+                  <td className="px-6 py-4">
+                    {item.common_name}
+                  </td>
+                  <td className="px-6 py-4">
+                      {item.type_of_cancer}
+                  </td>
+                  <td className="px-6 py-4">
+                  <button onClick={() => props.handleViewPlants(item)} className="font-medium text-blue-600 dark:text-blue-500 hover:underline flex gap-2 items-center">View {LinkTab}</button>
+                  </td>
+                </tr>
+              )
+            })
+            }
+            
+            </tbody>
+    </table>
+</div>
     </div>
   )
 }

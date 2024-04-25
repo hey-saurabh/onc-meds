@@ -1,17 +1,29 @@
 import React, { useState } from 'react'
 import styles from "./dashboard.module.scss";
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import { Ayurvedic, FDA } from './misc';
+import { Ayurvedic, FDA, Unani } from './misc';
 import TableComponent from '@/components/TableComponent';
-import { Input, Select } from 'antd/lib';
+import { Drawer, Input, Select } from 'antd/lib';
 
 const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   const [searchValue, setSearchValue] = useState("");
   const [database, setDatabase] = useState(null);
   const [criteria, setCriteria] = useState(null);
   const [isSearch, setIsSearch] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [selectedRowData, setSelectedRowData] = useState(null);
   const [data, setData] = useState([]);
 
+  const UnaniData = Unani.map((item, index) => {
+    return {
+      ...item, id: index+1
+    }
+  })
+
+  const handleViewPlants = (rowData) => {
+    setSelectedRowData(rowData);
+    setIsDrawerOpen(true);
+  }
 
   const searchHandler = async () => {
     setIsSearch(true);
@@ -28,11 +40,28 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
     //   console.error(err);
     // }
   }
-
+console.log('isDrawerOpen', isDrawerOpen)
   if(!isSearch) {
     return (
       <div className={`pageContainer ${styles.dashboardContainer}`}>
         <div className={styles.breadcrumbContainer}>
+        <Drawer 
+          open={isDrawerOpen}
+          width={"766px"}
+          title={`Plants Information`}
+          rootStyle={{ zIndex: "9999"}}
+          placement="right"
+          destroyOnClose
+        >
+          {selectedRowData && (
+            <div>
+              <p>Scientific Name: {selectedRowData.scientific_name}</p>
+              <p>Common Name: {selectedRowData.common_name}</p>
+              <p>Type of Cancer: {selectedRowData.type_of_cancer}</p>
+              {/* Add other fields as needed */}
+            </div>
+          )}
+        </Drawer>
         <Breadcrumb listTag="div" className={isDark ? "text-lg font-medium text-white" : "text-lg font-medium"}>
           <BreadcrumbItem
             href="/"
@@ -176,7 +205,7 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
         </div>
         
         <div className={styles.TableContainer}>
-        <TableComponent data={FDA} isDark={isDark} toggleDark={toggleDark} />
+        <TableComponent data={UnaniData} isDark={isDark} toggleDark={toggleDark} handleViewPlants={handleViewPlants} />
         </div>
         <div className={styles.imageOverlay} />
   

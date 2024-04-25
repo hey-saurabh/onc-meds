@@ -39,7 +39,7 @@
 
 "@ant-design/icons@^5.3.6":
   version "5.3.6"
-  resolved "https://registry.npmjs.org/@ant-design/icons/-/icons-5.3.6.tgz"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-5.3.6.tgz#172bbcfcfa39f9a1d9ef73ad5cf98c6184fb83f8"
   integrity sha512-JeWsgNjvkTTC73YDPgWOgdScRku/iHN9JU0qk39OSEmJSCiRghQMLlxGTCY5ovbRRoXjxHXnUKgQEgBDnQfKmA==
   dependencies:
     "@ant-design/colors" "^7.0.0"
