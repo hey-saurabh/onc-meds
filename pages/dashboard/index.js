@@ -3,7 +3,9 @@ import styles from "./dashboard.module.scss";
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Ayurvedic, FDA, Unani } from './misc';
 import TableComponent from '@/components/TableComponent';
-import { Drawer, Input, Select } from 'antd/lib';
+import { Col, Drawer, Input, Row, Select } from 'antd/lib';
+import { Card } from 'antd/lib';
+import Link from 'next/link';
 
 const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   const [searchValue, setSearchValue] = useState("");
@@ -40,27 +42,11 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
     //   console.error(err);
     // }
   }
-console.log('isDrawerOpen', isDrawerOpen)
+console.log('selectedRowData', selectedRowData)
   if(!isSearch) {
     return (
       <div className={`pageContainer ${styles.dashboardContainer}`}>
         <div className={styles.breadcrumbContainer}>
-        <Drawer 
-          open={isDrawerOpen}
-          size={"766px"}
-          title={`Plants Information`}
-          placement="right"
-          destroyOnClose
-        >
-          {selectedRowData && (
-            <div>
-              <p>Scientific Name: {selectedRowData.scientific_name}</p>
-              <p>Common Name: {selectedRowData.common_name}</p>
-              <p>Type of Cancer: {selectedRowData.type_of_cancer}</p>
-              {/* Add other fields as needed */}
-            </div>
-          )}
-        </Drawer>
         <Breadcrumb listTag="div" className={isDark ? "text-lg font-medium text-white" : "text-lg font-medium"}>
           <BreadcrumbItem
             href="/"
@@ -152,6 +138,67 @@ console.log('isDrawerOpen', isDrawerOpen)
   } else {
     return (
       <div className={`pageContainer ${styles.dashboardContainer}`}>
+        <Drawer 
+          open={isDrawerOpen}
+          closeIcon={false}
+          width={"1080px"}
+          bodyStyle={{ background: "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,227,245,1) 35%, rgba(213,223,255,1) 100%)" }}
+          headerStyle={{ background: "linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(221,227,245,1) 85%, rgba(213,223,255,1) 50%)" }}
+          onClose={() => setIsDrawerOpen(false)}
+          title={<div className='italic text-2xl p-2'>{selectedRowData?.scientific_name}</div>}
+          extra={<button className='button button-white shadow-sm' onClick={() => setIsDrawerOpen(false)}>Close</button>}
+          rootStyle={{ zIndex: "9999"}}
+          placement="right"
+          destroyOnClose
+        >
+          {selectedRowData && (
+            <Card className=' shadow p-2'>
+              <Row>
+                <Col className='mb-10 ml-10' span={24}><img className={styles.plantImages} src={`/images/plantImages/${selectedRowData.images}`} width={480} alt='plant image' /></Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Scientific Name</Col>
+                <Col span={1}>:</Col>
+                <Col className='italic text-base font-medium' span={17}>{selectedRowData.scientific_name}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Common Name</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.common_name}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Type of Cancer</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.type_of_cancer}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Component</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.components}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Phytochemicals</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.compound}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Part of Plant</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.part}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Geographical Distribution</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.region_found}</Col>
+              </Row>
+              <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>Reference</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium'><Link href={selectedRowData.reference} target="_blank">Read Article</Link></Col>
+              </Row>
+            </Card>
+          )}
+        </Drawer>
         <div className={styles.searchboxContainer2}>
           <Select 
             className='w-full'

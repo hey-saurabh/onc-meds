@@ -74,9 +74,9 @@ const TableComponent = (props) => {
         </tbody>
       </Table> */}
 
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-    <table class="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
-        <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
+<div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table className="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
+        <thead className="text-xs text-white uppercase bg-blue-600 dark:text-white">
             <tr>
                 <th scope="col" className="px-6 py-3">
                     S.No.
@@ -98,11 +98,11 @@ const TableComponent = (props) => {
         <tbody>
             {props.data.map((item, index) => {
               return (
-                <tr class="bg-sky-950 border-b border-blue-400" key={item.id}>
-                  <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                <tr className={`border-b border-blue-400 ${props.isDark ? "bg-sky-950 text-blue-100" : "bg-gray-200 text-zinc-950"}`} key={item.id}>
+                  <th scope="row" className="px-6 py-4 font-medium">
                       {item.id}
                   </th>
-                  <td className="px-6 py-4">
+                  <td className="px-6 py-4 italic">
                       {item.scientific_name}
                   </td>
                   <td className="px-6 py-4">
@@ -119,9 +119,9 @@ const TableComponent = (props) => {
             })
             }
             
-            </tbody>
-    </table>
-</div>
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
