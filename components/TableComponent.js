@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // import { Table } from 'reactstrap'
 import { DataGrid, GridActionsCellItem } from '@mui/x-data-grid';
 import { EyeOutlined } from '@ant-design/icons/lib';
@@ -6,6 +6,20 @@ import { LinkTab } from '@/utils/iconClasses';
 
 const TableComponent = (props) => {
   const [current, setCurrent] = useState(1);
+  const [innerWidth, setInnerWidth] = useState(false);
+
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setInnerWidth(window.innerWidth);
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, [])
+
+  useEffect(() => {
+    setInnerWidth(window.innerWidth);
+  }, [])
 
   const columns = [
     { field: 'id', headerName: 'S.No.', width: 50 },
@@ -74,7 +88,7 @@ const TableComponent = (props) => {
         </tbody>
       </Table> */}
 
-<div className="relative overflow-x-auto shadow-md sm:rounded-lg" style={{ height: "510px"}}>
+<div className="relative overflow-x-auto shadow-md sm:rounded-lg" style={{ height: innerWidth < 1550 ?  "400px" :"510px"}}>
     <table className="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
         <thead className="text-xs text-white uppercase dark:text-white" style={{ backgroundColor: "#4F46E5" }}>
             <tr>
