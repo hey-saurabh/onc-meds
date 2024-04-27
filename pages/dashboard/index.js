@@ -47,9 +47,8 @@ console.log('isDrawerOpen', isDrawerOpen)
         <div className={styles.breadcrumbContainer}>
         <Drawer 
           open={isDrawerOpen}
-          width={"766px"}
+          size={"766px"}
           title={`Plants Information`}
-          rootStyle={{ zIndex: "9999"}}
           placement="right"
           destroyOnClose
         >
