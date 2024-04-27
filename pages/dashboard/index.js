@@ -143,7 +143,7 @@ console.log('selectedRowData', selectedRowData)
           closeIcon={false}
           width={"1080px"}
           bodyStyle={{ background: "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,227,245,1) 35%, rgba(213,223,255,1) 100%)" }}
-          headerStyle={{ background: "linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(221,227,245,1) 85%, rgba(213,223,255,1) 50%)" }}
+          headerStyle={{ background: "linear-gradient(360deg, rgba(255,255,255,1) 50%, rgba(221,227,245,1) 95%, rgba(213,223,255,1) 50%)" }}
           onClose={() => setIsDrawerOpen(false)}
           title={<div className='italic text-2xl p-2'>{selectedRowData?.scientific_name}</div>}
           extra={<button className='button button-white shadow-sm' onClick={() => setIsDrawerOpen(false)}>Close</button>}
@@ -202,6 +202,7 @@ console.log('selectedRowData', selectedRowData)
         <div className={styles.searchboxContainer2}>
           <Select 
             className='w-full'
+            size='large'
             placeholder="Select Database..."
             options={[
               {
@@ -224,6 +225,7 @@ console.log('selectedRowData', selectedRowData)
           />
           <Select 
             className='w-full'
+            size='large'
             placeholder={"Select Criteria..."}
             options={[
               {

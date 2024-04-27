@@ -74,9 +74,9 @@ const TableComponent = (props) => {
         </tbody>
       </Table> */}
 
-<div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+<div className="relative overflow-x-auto shadow-md sm:rounded-lg" style={{ height: "510px"}}>
     <table className="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
-        <thead className="text-xs text-white uppercase bg-blue-600 dark:text-white">
+        <thead className="text-xs text-white uppercase dark:text-white" style={{ backgroundColor: "#4F46E5" }}>
             <tr>
                 <th scope="col" className="px-6 py-3">
                     S.No.
