@@ -6,6 +6,7 @@ import TableComponent from '@/components/TableComponent';
 import { Col, Drawer, Input, Row, Select } from 'antd/lib';
 import { Card } from 'antd/lib';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   const [searchValue, setSearchValue] = useState("");
@@ -66,10 +67,10 @@ console.log('selectedRowData', selectedRowData)
           <p className='text-center font-medium text-lg'>Looking for natural approaches to support cancer treatment? Our Medicinal Plant Database is your one-stop shop!
           <br/>Explore a world of healing plants...</p>
           <ul>
-            <li><img src='https://images.leverageedu.com/homepage/bullet-check.svg' /> Search by scientific or common names to find the perfect plant.</li>
-            <li><img src='https://images.leverageedu.com/homepage/bullet-check.svg' /> Dive deep and discover the chemical makeup and anti-cancer compounds in each plant.</li>
-            <li><img src='https://images.leverageedu.com/homepage/bullet-check.svg' /> See it to believe it! Immerse yourself in a library of beautiful plant images.</li>
-            <li><img src='https://images.leverageedu.com/homepage/bullet-check.svg' /> Unravel the science: Delve into curated research articles for in-depth knowledge.</li>
+            <li><Image src='https://images.leverageedu.com/homepage/bullet-check.svg' alt="bullet_check_image" /> Search by scientific or common names to find the perfect plant.</li>
+            <li><Image src='https://images.leverageedu.com/homepage/bullet-check.svg' alt="bullet_check_image" /> Dive deep and discover the chemical makeup and anti-cancer compounds in each plant.</li>
+            <li><Image src='https://images.leverageedu.com/homepage/bullet-check.svg' alt="bullet_check_image" /> See it to believe it! Immerse yourself in a library of beautiful plant images.</li>
+            <li><Image src='https://images.leverageedu.com/homepage/bullet-check.svg' alt="bullet_check_image" /> Unravel the science: Delve into curated research articles for in-depth knowledge.</li>
           </ul>
         </div>
         <div className={styles.searchboxContainer}>
@@ -154,7 +155,7 @@ console.log('selectedRowData', selectedRowData)
           {selectedRowData && (
             <Card className=' shadow p-2'>
               <Row>
-                <Col className='mb-10 ml-10' span={24}><img className={styles.plantImages} src={`/images/plantImages/${selectedRowData.images}`} width={480} alt='plant image' /></Col>
+                <Col className='mb-10 ml-10' span={24}><Image className={styles.plantImages} src={`/images/plantImages/${selectedRowData.images}`} width={480} alt={selectedRowData.images} /></Col>
               </Row>
               <Row className='mb-2'>
                 <Col span={6} className='text-lg font-medium'>Scientific Name</Col>
