@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import { Table } from 'reactstrap'
-import { DataGrid, GridActionsCellItem } from '@mui/x-data-grid';
-import { EyeOutlined } from '@ant-design/icons/lib';
+// import { DataGrid, GridActionsCellItem } from '@mui/x-data-grid';
+// import { EyeOutlined } from '@ant-design/icons/lib';
 import { LinkTab } from '@/utils/iconClasses';
 
 const TableComponent = (props) => {
@@ -20,21 +20,21 @@ const TableComponent = (props) => {
   useEffect(() => {
     setInnerWidth(window.innerWidth);
   }, [])
-
-  const columns = [
-    { field: 'id', headerName: 'S.No.', width: 50 },
-    { field: 'scientific_name', headerName: 'Scientific Name', width: 200 },
-    { field: 'common_name', headerName: 'Common Name', width: 350 },
-    { field: 'type_of_cancer', headerName: 'Type of Cancer', width: 450 },
-    {
-      field: 'actions',
-      type: 'actions',
-      width: 200,
-      getActions: () => [
-        <GridActionsCellItem icon={<EyeOutlined />} label="Edit" key={0} />,
-      ],
-    },
-  ];
+  console.log('innerWidth', innerWidth)
+  // const columns = [
+  //   { field: 'id', headerName: 'S.No.', width: 50 },
+  //   { field: 'scientific_name', headerName: 'Scientific Name', width: 200 },
+  //   { field: 'common_name', headerName: 'Common Name', width: 350 },
+  //   { field: 'type_of_cancer', headerName: 'Type of Cancer', width: 450 },
+  //   {
+  //     field: 'actions',
+  //     type: 'actions',
+  //     width: 200,
+  //     getActions: () => [
+  //       <GridActionsCellItem icon={<EyeOutlined />} label="Edit" key={0} />,
+  //     ],
+  //   },
+  // ];
   return (
     <div>
       {/* <DataGrid
@@ -88,7 +88,7 @@ const TableComponent = (props) => {
         </tbody>
       </Table> */}
 
-<div className="relative overflow-x-auto shadow-md sm:rounded-lg" style={{ height: innerWidth < 1550 ?  "400px" :"510px"}}>
+<div className="relative overflow-x-auto shadow-md sm:rounded-lg" style={{ height: innerWidth <= 1920 ?  "400px" :"510px"}}>
     <table className="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
         <thead className="text-xs text-white uppercase dark:text-white" style={{ backgroundColor: "#4F46E5" }}>
             <tr>
@@ -140,4 +140,4 @@ const TableComponent = (props) => {
   )
 }
 
-export default TableComponent
+export default TableComponent;
