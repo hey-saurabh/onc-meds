@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from "./dashboard.module.scss";
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import { Ayurvedic, FDA, Unani } from './misc';
+import { Ayurvedic, FDA, Unani } from '../../utils/misc';
 import TableComponent from '@/components/TableComponent';
 import { Col, Drawer, Input, Row, Select } from 'antd/lib';
 import { Card } from 'antd/lib';
