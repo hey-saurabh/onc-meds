@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./dashboard.module.scss";
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Ayurvedic, FDA, Unani } from '../../utils/misc';
@@ -14,21 +14,39 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   const [isSearch, setIsSearch] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [selectedRowData, setSelectedRowData] = useState(null);
+  const [tableData, setTableData] = useState([]);
   const [data, setData] = useState([]);
-
-  const UnaniData = Unani.map((item, index) => {
-    return {
-      ...item, id: index+1
-    }
-  })
 
   const handleViewPlants = (rowData) => {
     setSelectedRowData(rowData);
     setIsDrawerOpen(true);
   }
 
-  const searchHandler = async () => {
+  const searchHandler = () => {
     setIsSearch(true);
+    if(database == "all") {
+    } else if (database == "unani") {
+      const data = Unani.map((item, index) => {
+        return {
+          ...item, id: index+1
+        }
+      })
+      setTableData(data)
+    } else if(database == 'ayurvedic') {
+      const data = Ayurvedic.map((item, index) => {
+        return {
+          ...item, id: index+1
+        }
+      })
+      setTableData(data)
+    } else if(database == "fda"){
+      const data = FDA.map((item, index) => {
+        return {
+          ...item, id: index+1
+        }
+      })
+      setTableData(data)
+    }
     // try {
     //   const response = await fetch(url + endpoint, obj)
     //   .then((res) => res.json())
@@ -154,7 +172,7 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
           {selectedRowData && (
             <Card className=' shadow p-2'>
               <Row>
-                <Col className='mb-10 ml-10' span={24}><img className={styles.plantImages} src={`/images/plantImages/${selectedRowData.images}`} width={480} alt={selectedRowData.images} /></Col>
+                <Col className='mb-10 ml-10' span={24}><img className={styles.plantImages} src={`/images/plantImages/${selectedRowData.image}`} width={480} alt={selectedRowData.images} /></Col>
               </Row>
               <Row className='mb-2'>
                 <Col span={6} className='text-lg font-medium'>Scientific Name</Col>
@@ -202,8 +220,10 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
         <div className={styles.searchboxContainer2}>
           <Select 
             className='w-full'
-            size='large'
             placeholder="Select Database..."
+            value={database}
+            size='large'
+            onChange={(e) => setDatabase(e)}
             options={[
               {
                 label: "All Database",
@@ -225,8 +245,10 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
           />
           <Select 
             className='w-full'
-            size='large'
             placeholder={"Select Criteria..."}
+            value={criteria}
+            size='large'
+            onChange={(e) => setCriteria(e)}
             options={[
               {
                 label: "Scientific Name",
@@ -243,7 +265,8 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
             ]}
           />
           <Input 
-            style={{ width: "100%", fontSize: 15 }} 
+            style={{ width: "100%", }} 
+            size='large'
             placeholder="Search for Plants...."
             onChange={(e) => setSearchValue(e.target.value)}
             value={searchValue}
@@ -253,7 +276,7 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
         </div>
         
         <div className={styles.TableContainer}>
-        <TableComponent data={UnaniData} isDark={isDark} toggleDark={toggleDark} handleViewPlants={handleViewPlants} />
+        <TableComponent data={tableData} isDark={isDark} toggleDark={toggleDark} handleViewPlants={handleViewPlants} />
         </div>
         <div className={styles.imageOverlay} />
   

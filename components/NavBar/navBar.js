@@ -8,7 +8,6 @@ const Navbar = ({ toggleDark, isDark }) => {
 
     const router = useRouter();
 
-console.log(router)
     return (
         <>
             <div style={{borderBottom:'1px solid #E9EEF5'}} className={`${styles.navbar}`}>

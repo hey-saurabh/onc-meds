@@ -20,7 +20,7 @@ const TableComponent = (props) => {
   useEffect(() => {
     setInnerWidth(window.innerWidth);
   }, [])
-  console.log('innerWidth', innerWidth)
+
   // const columns = [
   //   { field: 'id', headerName: 'S.No.', width: 50 },
   //   { field: 'scientific_name', headerName: 'Scientific Name', width: 200 },

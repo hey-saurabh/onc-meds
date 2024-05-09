@@ -115,7 +115,7 @@ export const Unani = [
    "part": "Fruit, Seed",
    "region_found": "Uttar Pradesh, Bihar, West Bengal, Odisha, Assam, Andhra Pradesh and Karnataka.",
    "reference": "https:\/\/pharmacia.ipsgwalior.org\/artical\/vol1_issue3_2.pdf",
-   "images": "Abelmoschus_esculentus.jpeg"
+   "image": "Abelmoschus_esculentus.jpeg"
   },
   {
    "scientific_name": "Abelmoschus moschatus",
@@ -126,7 +126,7 @@ export const Unani = [
    "part": "Seed and leaf",
    "region_found": "Deccan region of India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Abelmoschus_moschatus.jpeg"
+   "image": "Abelmoschus_moschatus.jpeg"
   },
   {
    "scientific_name": "Abrus precatorious",
@@ -137,7 +137,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Throughout the plains of India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Abrus_precatorious.jpeg"
+   "image": "Abrus_precatorious.jpeg"
   },
   {
    "scientific_name": "Acacia nilotica",
@@ -148,7 +148,7 @@ export const Unani = [
    "part": "Flower and leaf extracts",
    "region_found": "Rajasthan, Haryana, and Tripura",
    "reference": "https:\/\/eijppr.com\/storage\/models\/article\/iKzp3TU9UBM4Qft8Zv8j96YD0xaT6F3YuIxKPFaFGtd0xjAn9q3ZVGl7nExU\/acacia-arabica-babool-a-review-on-ethnobotanical-and-unani-traditional-uses-as-well-as-phytochemic.pdf",
-   "images": "Acacia_nilotica.jpeg"
+   "image": "Acacia_nilotica.jpeg"
   },
   {
    "scientific_name": "Acalypha indica",
@@ -159,7 +159,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Andhra Pradesh, Chhattisgarh, Delhi, Jharkhand, Karnataka, Kerala, Maharashtra, Puducherry, Punjab, Rajasthan, Telangana, and West Bengal",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Acalypha_indica.jpeg"
+   "image": "Acalypha_indica.jpeg"
   },
   {
    "scientific_name": "Achyranthes aspera",
@@ -170,7 +170,7 @@ export const Unani = [
    "part": "Roots,Leaves extract",
    "region_found": "Andhra Pradesh, Telangana, Karnataka, Kerala, Maharashtra",
    "reference": "https:\/\/www.plantsjournal.com\/archives\/2016\/vol4issue3\/partA\/4-2-7.pdf",
-   "images": "Achyranthes_aspera.jpeg"
+   "image": "Achyranthes_aspera.jpeg"
   },
   {
    "scientific_name": "Aconitum heterophyllum",
@@ -181,7 +181,7 @@ export const Unani = [
    "part": "Root",
    "region_found": "Jammu and Kashmir, Himachal Pradesh",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Aconitum_heterophyllum.jpeg"
+   "image": "Aconitum_heterophyllum.jpeg"
   },
   {
    "scientific_name": "Acorus calamus",
@@ -192,7 +192,7 @@ export const Unani = [
    "part": "Rhizomes and leaves",
    "region_found": "Himalayas, at altitudes of 100-2300 m and Western Ghats",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Acorus_calamus.jpeg"
+   "image": "Acorus_calamus.jpeg"
   },
   {
    "scientific_name": "Adenanthera pavonina",
@@ -203,7 +203,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Lowland tropics of India",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1319016419300271?via%3Dihub",
-   "images": "Adenanthera_pavonina.jpeg"
+   "image": "Adenanthera_pavonina.jpeg"
   },
   {
    "scientific_name": "Adhatoda vasica",
@@ -214,7 +214,7 @@ export const Unani = [
    "part": "Leaves, root, and stem",
    "region_found": "Kerala",
    "reference": "https:\/\/www.researchgate.net\/profile\/Gv-Vinothapooshan-2\/publication\/236681826_Immunomodulatory_activity_of_various_extracts_of_Adhatoda_vasica_Linn_In_experimental_rats\/links\/558bd96c08aee43bf6acff5a\/Immunomodulatory-activity-of-various-extracts-of-Adhatoda-vasica-Linn-In-experimental-rats.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19",
-   "images": "Adhatoda_vasica.jpeg"
+   "image": "Adhatoda_vasica.jpeg"
   },
   {
    "scientific_name": "Aegle marmelos",
@@ -225,7 +225,7 @@ export const Unani = [
    "part": "Hydrochloric leaf extracts",
    "region_found": "India, including the Himalayan regions, Bengal, and Central and South India",
    "reference": "https:\/\/doi.org\/10.22271\/plants.2020.v8.i5c.1212",
-   "images": "Aegle_marmelos.jpeg"
+   "image": "Aegle_marmelos.jpeg"
   },
   {
    "scientific_name": "Ageratum conyzoides",
@@ -236,7 +236,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Northern India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Ageratum_conyzoides.jpeg"
+   "image": "Ageratum_conyzoides.jpeg"
   },
   {
    "scientific_name": "Allium sativum",
@@ -247,7 +247,7 @@ export const Unani = [
    "part": "Bulbs",
    "region_found": "Punjab,West Bengal,Maharashtra, Himachal Pradesh,Uttarakhand,Jammu and Kashmir",
    "reference": "https:\/\/www.plantsjournal.com\/archives\/2016\/vol4issue6\/partB\/4-5-43-447.pdf",
-   "images": "Allium_sativum.jpeg"
+   "image": "Allium_sativum.jpeg"
   },
   {
    "scientific_name": "Alpinia galangal",
@@ -258,7 +258,7 @@ export const Unani = [
    "part": "Ethanolic extract of rhizomes",
    "region_found": "Western Ghats, Mysore, Goa, Malabar, and Gujarat",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Alpinia_galangal.jpeg"
+   "image": "Alpinia_galangal.jpeg"
   },
   {
    "scientific_name": "Alstonia scholaris",
@@ -269,7 +269,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Sub-Himalayan tract, West Bengal, Bihar, Peninsular India, and Andaman Islands",
    "reference": "https:\/\/www.plantsjournal.com\/archives\/2020\/vol8issue2\/partA\/8-2-2-602.pdf",
-   "images": "Alstonia_scholaris.jpeg"
+   "image": "Alstonia_scholaris.jpeg"
   },
   {
    "scientific_name": "Ammi majus",
@@ -280,7 +280,7 @@ export const Unani = [
    "part": "Fruit",
    "region_found": "Jammu and Kashmir",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Ammi_majus.jpeg"
+   "image": "Ammi_majus.jpeg"
   },
   {
    "scientific_name": "Apium graveolens",
@@ -291,7 +291,7 @@ export const Unani = [
    "part": "Methanolic extracts of seeds",
    "region_found": "Punjab, Haryana, Western Uttar Pradesh",
    "reference": "https:\/\/www.researchgate.net\/profile\/Gyanranjan-Mahalik\/publication\/328731628_STANDARDIZATION_AND_AUTHENTICATION_OF_SEEDS_OF_AJMODA_APIUM_GRAVEOLENS_THE_DRUG_ASSESSED_FOR_CHEMO_PREVENTIVE_ACTIVITY\/links\/5bdeeab4299bf1124fb9f20f\/STANDARDIZATION-AND-AUTHENTICATION-OF-SEEDS-OF-AJMODA-APIUM-GRAVEOLENS-THE-DRUG-ASSESSED-FOR-CHEMO-PREVENTIVE-ACTIVITY.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19",
-   "images": "Apium_graveolens.jpeg"
+   "image": "Apium_graveolens.jpeg"
   },
   {
    "scientific_name": "Argemone Mexicana",
@@ -302,7 +302,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Karnataka and Kerala",
    "reference": "https:\/\/ijpjournal.com\/?action=download_pdf&postid=7489",
-   "images": "Argemone_Mexicana.jpeg"
+   "image": "Argemone_Mexicana.jpeg"
   },
   {
    "scientific_name": "Artemisia absinthium",
@@ -313,7 +313,7 @@ export const Unani = [
    "part": "aerial parts",
    "region_found": "Chakrata region of Uttarakhand",
    "reference": "https:\/\/www.thepharmajournal.com\/archives\/2017\/vol6issue8\/partC\/6-7-100-515.pdf",
-   "images": "Artemisia_absinthium.jpeg"
+   "image": "Artemisia_absinthium.jpeg"
   },
   {
    "scientific_name": "Artemisia judaica",
@@ -324,7 +324,7 @@ export const Unani = [
    "part": "Aerial parts",
    "region_found": "Throughout India",
    "reference": "https:\/\/biointerfaceresearch.com\/wp-content\/uploads\/2022\/09\/BRIAC134.356.pdf",
-   "images": "Artemisia_judaica.jpeg"
+   "image": "Artemisia_judaica.jpeg"
   },
   {
    "scientific_name": "Artemisia maritima",
@@ -335,7 +335,7 @@ export const Unani = [
    "part": "Root",
    "region_found": "North Western India, including Kashmir, Kishtwar, and Gurez",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Artemisia_maritima.jpeg"
+   "image": "Artemisia_maritima.jpeg"
   },
   {
    "scientific_name": "Asparagus racemosus",
@@ -346,7 +346,7 @@ export const Unani = [
    "part": "Root",
    "region_found": "Throughout India",
    "reference": "https:\/\/ijpjournal.com\/bft-article\/therapeutic-potentials-of-satawar-a-unani-medicine\/",
-   "images": "Asparagus_racemosus.jpeg"
+   "image": "Asparagus_racemosus.jpeg"
   },
   {
    "scientific_name": "Averrhoa carambola",
@@ -357,7 +357,7 @@ export const Unani = [
    "part": "Fruit",
    "region_found": "Throughout India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Averrhoa_carambola.jpeg"
+   "image": "Averrhoa_carambola.jpeg"
   },
   {
    "scientific_name": "Azadirachta indica",
@@ -368,7 +368,7 @@ export const Unani = [
    "part": "Bark, leaves, flowers, and seed oil",
    "region_found": "Tropical to subtropical regions, in semiarid to wet tropical regions",
    "reference": "http:\/\/doi.org\/10.26480\/MSM.01.2018.04.08",
-   "images": "Azadirachta_indica.jpeg"
+   "image": "Azadirachta_indica.jpeg"
   },
   {
    "scientific_name": "Bacopa monnieri",
@@ -379,7 +379,7 @@ export const Unani = [
    "part": "Ethanolic of plant",
    "region_found": "Wetlands of southern and eastern India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Bacopa_monnieri.jpeg"
+   "image": "Bacopa_monnieri.jpeg"
   },
   {
    "scientific_name": "Bauhinia variegata",
@@ -390,7 +390,7 @@ export const Unani = [
    "part": "Leaves extracts, bark",
    "region_found": "India's sub-Himalayan and outer Himalayan regions of Sikkim and Punjab",
    "reference": "https:\/\/appliedcr.biomedcentral.com\/articles\/10.1186\/s41241-017-0039-3",
-   "images": "Bauhinia_variegata.jpeg"
+   "image": "Bauhinia_variegata.jpeg"
   },
   {
    "scientific_name": "Berberis aristata",
@@ -401,7 +401,7 @@ export const Unani = [
    "part": "Root,leaves stem, bark",
    "region_found": "Himalayan region of India, Uttarakhand, Himachal Pradesh, Jammu and Kashmir, Punjab and Uttar Pradesh. ",
    "reference": "https:\/\/doi.org\/10.1016\/j.hermed.2021.100433",
-   "images": "Berberis_aristata.jpeg"
+   "image": "Berberis_aristata.jpeg"
   },
   {
    "scientific_name": "Berberis asiatica",
@@ -412,7 +412,7 @@ export const Unani = [
    "part": "Roots",
    "region_found": "Uttarakhand , Himalayas",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Berberis_asiatica.jpeg"
+   "image": "Berberis_asiatica.jpeg"
   },
   {
    "scientific_name": "Berberis lycium",
@@ -423,7 +423,7 @@ export const Unani = [
    "part": "Leaves, roots",
    "region_found": "Kashmir to Uttarakhand in the outer northern western Himalayas",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Berberis_lycium.jpeg"
+   "image": "Berberis_lycium.jpeg"
   },
   {
    "scientific_name": "Berberis vulgaris",
@@ -434,7 +434,7 @@ export const Unani = [
    "part": "Roots, bark, berries",
    "region_found": "Northwestern Himalayas",
    "reference": "https:\/\/doi.org\/10.22271\/plants.2020.v8.i5c.1212",
-   "images": "Berberis_vulgaris.jpeg"
+   "image": "Berberis_vulgaris.jpeg"
   },
   {
    "scientific_name": "Beta vulgaris",
@@ -445,7 +445,7 @@ export const Unani = [
    "part": "Rhizome",
    "region_found": "Haryana, Uttar Pradesh, Himachal Pradesh, West Bengal, and Maharashtra",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Beta_vulgaris.jpeg"
+   "image": "Beta_vulgaris.jpeg"
   },
   {
    "scientific_name": "Blumea balsamifera",
@@ -456,7 +456,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Hilly areas of Assam, south bank of the Brahmaputra",
    "reference": "https:\/\/injri.andavancollege.ac.in\/Archivesfile\/2016\/science\/26.pdf",
-   "images": "Blumea_balsamifera.jpeg"
+   "image": "Blumea_balsamifera.jpeg"
   },
   {
    "scientific_name": "Boerhavia diffusa",
@@ -467,7 +467,7 @@ export const Unani = [
    "part": "Boerhavia diffusa",
    "region_found": "Throughout regions of India",
    "reference": "https:\/\/www.researchgate.net\/publication\/266249444_Morphological_phytochemical_and_pharmacological_studies_on_Boerhavia_diffusa_L",
-   "images": "Boerhavia_diffusa.jpeg"
+   "image": "Boerhavia_diffusa.jpeg"
   },
   {
    "scientific_name": "Bombax ceiba",
@@ -478,7 +478,7 @@ export const Unani = [
    "part": "Leaves, flowers",
    "region_found": "Tropical and subtropical India.",
    "reference": "https:\/\/www.saspublishers.com\/media\/articles\/SAJP32-100-107.pdf",
-   "images": "Bombax_ceiba.jpeg"
+   "image": "Bombax_ceiba.jpeg"
   },
   {
    "scientific_name": "Boswellia serrata",
@@ -489,7 +489,7 @@ export const Unani = [
    "part": "Hydroalcoholic extract",
    "region_found": "Andhra Pradesh, Gujarat, Madhya Pradesh, Jharkhand and Chhattisgarh",
    "reference": "https:\/\/ijpjournal.com\/?action=download_pdf&postid=1511",
-   "images": "Boswellia_serrata.jpeg"
+   "image": "Boswellia_serrata.jpeg"
   },
   {
    "scientific_name": "Butea monosperma",
@@ -500,7 +500,7 @@ export const Unani = [
    "part": "Flowers",
    "region_found": "Throughout India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Butea_monosperma.jpeg"
+   "image": "Butea_monosperma.jpeg"
   },
   {
    "scientific_name": "Caesalpinia bonduc",
@@ -511,7 +511,7 @@ export const Unani = [
    "part": "Seeds, leaves",
    "region_found": "Andhra Pradesh, Kerala, Odisha, Tamil Nadu",
    "reference": "https:\/\/www.florajournal.com\/archives\/2020\/vol8issue6\/partA\/8-5-45-788.pdf",
-   "images": "Caesalpinia_bonduc.jpeg"
+   "image": "Caesalpinia_bonduc.jpeg"
   },
   {
    "scientific_name": "Calendula officinalis",
@@ -522,7 +522,7 @@ export const Unani = [
    "part": "Plant extract",
    "region_found": "Karnataka, Tamil Nadu, and Eastern Sikkim",
    "reference": "https:\/\/bmccancer.biomedcentral.com\/articles\/10.1186\/1471-2407-6-119",
-   "images": "Calendula_officinalis.jpeg"
+   "image": "Calendula_officinalis.jpeg"
   },
   {
    "scientific_name": "Camellia sinensis",
@@ -533,7 +533,7 @@ export const Unani = [
    "part": "Leaves extract",
    "region_found": "Assam, India's north-eastern border",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Camellia_sinensis.jpeg"
+   "image": "Camellia_sinensis.jpeg"
   },
   {
    "scientific_name": "Camptotheca acuminata",
@@ -544,7 +544,7 @@ export const Unani = [
    "part": "Bark and stems",
    "region_found": "Western Ghats of India",
    "reference": "https:\/\/www.researchgate.net\/publication\/36789083_Current_status_of_herbal_and_their_future_perspectives",
-   "images": "Camptotheca_acuminata.jpeg"
+   "image": "Camptotheca_acuminata.jpeg"
   },
   {
    "scientific_name": "Cannabis sativa",
@@ -555,7 +555,7 @@ export const Unani = [
    "part": "Resins, flowers, seed and leaves",
    "region_found": "South India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Cannabis_sativa.jpeg"
+   "image": "Cannabis_sativa.jpeg"
   },
   {
    "scientific_name": "Capparis spinosa",
@@ -566,7 +566,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Karnataka, Maharashtra",
    "reference": "https:\/\/www.researchgate.net\/publication\/267409623_Antioxidant_and_antigenotoxic_activities_of_Globularia_alypum_leaves_extracts",
-   "images": "Capparis_spinosa.jpeg"
+   "image": "Capparis_spinosa.jpeg"
   },
   {
    "scientific_name": "Carapichea ipecacuanha",
@@ -577,7 +577,7 @@ export const Unani = [
    "part": "Whole plant extracts",
    "region_found": "The Darjeeling Hills of West Bengal, Nilgiri and Sikkim",
    "reference": "https:\/\/www.researchgate.net\/publication\/341814226_A_Paradoxically_Significant_Medicinal_Plant_Carapichea_ipecacuanha_A_Review",
-   "images": "Carapichea_ipecacuanha.jpeg"
+   "image": "Carapichea_ipecacuanha.jpeg"
   },
   {
    "scientific_name": "Catharanthus roseus",
@@ -588,7 +588,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Tamil Nadu, Karnataka, Andhra Pradesh, Gujarat, Madhya Pradesh and Assam",
    "reference": "https:\/\/www.researchgate.net\/publication\/36789083_Current_status_of_herbal_and_their_future_perspectives",
-   "images": "Catharanthus_roseus.jpeg"
+   "image": "Catharanthus_roseus.jpeg"
   },
   {
    "scientific_name": "Centella asiatica",
@@ -599,7 +599,7 @@ export const Unani = [
    "part": "Stem and leaves",
    "region_found": "Tropical and subtropical regions of India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Centella_asiatica.jpeg"
+   "image": "Centella_asiatica.jpeg"
   },
   {
    "scientific_name": "Cheiranthus cheiri",
@@ -610,7 +610,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Tamil Nadu",
    "reference": "http:\/\/dx.doi.org\/10.20959\/wjpr20175-8317",
-   "images": "Cheiranthus_cheiri.jpeg"
+   "image": "Cheiranthus_cheiri.jpeg"
   },
   {
    "scientific_name": "Cichorium intybus",
@@ -621,7 +621,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "North-west and Southern India",
    "reference": "https:\/\/ijpjournal.com\/?action=download_pdf&postid=1900",
-   "images": "Cichorium_intybus.jpeg"
+   "image": "Cichorium_intybus.jpeg"
   },
   {
    "scientific_name": "Cinnamomum zeylanicum",
@@ -632,7 +632,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Western Ghats",
    "reference": "https:\/\/crimsonpublishers.com\/acam\/pdf\/ACAM.000519.pdf",
-   "images": "Cinnamomum_zeylanicum.jpeg"
+   "image": "Cinnamomum_zeylanicum.jpeg"
   },
   {
    "scientific_name": "Citrullus colocynthis",
@@ -643,7 +643,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Gujarat and some parts of Rajasthan",
    "reference": "https:\/\/phcogrev.com\/article\/2020\/14\/27\/105530phrev2020144",
-   "images": "Citrullus_colocynthis.jpeg"
+   "image": "Citrullus_colocynthis.jpeg"
   },
   {
    "scientific_name": "Clerodendrum serratum",
@@ -654,7 +654,7 @@ export const Unani = [
    "part": "Roots , leaves",
    "region_found": "Western Ghats of India.",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8064-7_20",
-   "images": "Clerodendrum_serratum.jpeg"
+   "image": "Clerodendrum_serratum.jpeg"
   },
   {
    "scientific_name": "Clitoria ternatea",
@@ -665,7 +665,7 @@ export const Unani = [
    "part": "Flower, leaves",
    "region_found": "Tropical and subtropical regions, such as the foothills of the Himalayas, and in southern India",
    "reference": "https:\/\/www.irjmets.com\/uploadedfiles\/paper\/\/issue_7_july_2023\/43609\/final\/fin_irjmets1690560566.pdf",
-   "images": "Clitoria_ternatea.jpeg"
+   "image": "Clitoria_ternatea.jpeg"
   },
   {
    "scientific_name": "Combretum caffrum",
@@ -676,7 +676,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Tropical to subtropical regions, in semiarid to wet tropical regions,",
    "reference": "https:\/\/doi.org\/10.1016\/j.mam.2005.07.008",
-   "images": "Combretum_caffrum.jpeg"
+   "image": "Combretum_caffrum.jpeg"
   },
   {
    "scientific_name": "Curcuma longa",
@@ -687,7 +687,7 @@ export const Unani = [
    "part": "Rhizomes",
    "region_found": "Andhra Pradesh, Tamil Nadu, Orissa, Karnataka, West Bengal, Gujarat, Meghalaya, Maharashtra, Assam ",
    "reference": "https:\/\/www.journalofsports.com\/pdf\/2019\/vol4issue1\/partAG\/4-1-364-170.pdf",
-   "images": "Curcuma_longa.jpeg"
+   "image": "Curcuma_longa.jpeg"
   },
   {
    "scientific_name": "Cuscuta reflexa",
@@ -698,7 +698,7 @@ export const Unani = [
    "part": "Ethyl acetate and acetone extract of plant",
    "region_found": "Andhra Pradesh, Chhattisgarh, Gujarat, Orissa, West Bengal, and parts of Madhya Pradesh",
    "reference": "https:\/\/www.primescholars.com\/articles\/anticancer-and-antioxidant-potencies-of-cuscuta-reflexa-roxb-plant-extracts.pdf",
-   "images": "Cuscuta_reflexa.jpeg"
+   "image": "Cuscuta_reflexa.jpeg"
   },
   {
    "scientific_name": "Dodonaea viscosa",
@@ -709,7 +709,7 @@ export const Unani = [
    "part": "Leaves and bark extract",
    "region_found": "Madhya Pradesh, Andhra Pradesh, Coastal Plains",
    "reference": "https:\/\/rasayanjournal.co.in\/admin\/php\/upload\/3335_pdf.pdf",
-   "images": "Dodonaea_viscosa.jpeg"
+   "image": "Dodonaea_viscosa.jpeg"
   },
   {
    "scientific_name": "Emblica officinalis",
@@ -720,7 +720,7 @@ export const Unani = [
    "part": "Fruit",
    "region_found": "Throughout India",
    "reference": "https:\/\/scholar.google.co.in\/citations?user=wenWvm0AAAAJ&hl=en",
-   "images": "Emblica_officinalis.jpeg"
+   "image": "Emblica_officinalis.jpeg"
   },
   {
    "scientific_name": "Erythrina indica",
@@ -731,7 +731,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Tropical and subtropical regions of the India",
    "reference": "https:\/\/www.bibliomed.org\/mnsfulltext\/55\/55-1635855815.pdf?1712160463",
-   "images": "Erythrina_indica.jpeg"
+   "image": "Erythrina_indica.jpeg"
   },
   {
    "scientific_name": "Euonymus hamiltonianus",
@@ -742,7 +742,7 @@ export const Unani = [
    "part": "Berries",
    "region_found": "Jammu and Kashmir, Himachal Pradesh",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Euonymus_hamiltonianus.jpeg"
+   "image": "Euonymus_hamiltonianus.jpeg"
   },
   {
    "scientific_name": "Euphorbia antiquorum",
@@ -753,7 +753,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Throughout peninsular India",
    "reference": "http:\/\/ajsmrjournal.com\/pdffiles\/cimg175940_11.22%20KAVITHA%20129-135.pdf",
-   "images": "Euphorbia_antiquorum.jpeg"
+   "image": "Euphorbia_antiquorum.jpeg"
   },
   {
    "scientific_name": "Euphorbia wallichii",
@@ -764,7 +764,7 @@ export const Unani = [
    "part": "Root",
    "region_found": "Jammu and Kahmir, Himalayas ",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Euphorbia_wallichii.jpeg"
+   "image": "Euphorbia_wallichii.jpeg"
   },
   {
    "scientific_name": "Ficus benghalensis",
@@ -775,7 +775,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Bengal, South India, and West India",
    "reference": "https:\/\/doi.org\/10.22271\/plants.2020.v8.i5c.1212",
-   "images": "Ficus_benghalensis.jpeg"
+   "image": "Ficus_benghalensis.jpeg"
   },
   {
    "scientific_name": "Ficus cirica",
@@ -786,7 +786,7 @@ export const Unani = [
    "part": "Fruit",
    "region_found": "Uttar Pradesh, Uttarakhand, Punjab, and Himachal Pradesh",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Ficus_cirica.jpeg"
+   "image": "Ficus_cirica.jpeg"
   },
   {
    "scientific_name": "Foeniculum vulgare",
@@ -797,7 +797,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Assam, Punjab, Maharashta and Gujarat.",
    "reference": "https:\/\/www.unanijournal.com\/articles\/82\/3-1-15-258.pdf",
-   "images": "Foeniculum_vulgare.jpeg"
+   "image": "Foeniculum_vulgare.jpeg"
   },
   {
    "scientific_name": "Garcinia indica",
@@ -808,7 +808,7 @@ export const Unani = [
    "part": "Fruit",
    "region_found": "Western Ghats, Maharashtra, Goa, Karnataka, and Kerala",
    "reference": "https:\/\/www.academia.edu\/72071046\/DOI_10_5897_JMPR09_027_ISSN_1996_0875_2010_Academic_Journals",
-   "images": "Garcinia_indica.jpeg"
+   "image": "Garcinia_indica.jpeg"
   },
   {
    "scientific_name": "Ginkgo biloba",
@@ -819,7 +819,7 @@ export const Unani = [
    "part": "Leaves extract",
    "region_found": "Uttarakhand(Dehradun, Nainital, Mussoorie, and Ranikhet), Himachal Pradesh(Kalpa and Manali)",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Ginkgo_biloba.jpeg"
+   "image": "Ginkgo_biloba.jpeg"
   },
   {
    "scientific_name": "Glycyrrhiza glabra",
@@ -830,7 +830,7 @@ export const Unani = [
    "part": "Root,leaves",
    "region_found": "Rajasthan, Gujarat, Uttar Pradesh, and Punjab",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Glycyrrhiza_glabra.jpeg"
+   "image": "Glycyrrhiza_glabra.jpeg"
   },
   {
    "scientific_name": "Gymnosporia emarginata",
@@ -841,7 +841,7 @@ export const Unani = [
    "part": "Leaves extract",
    "region_found": "Throughout the arid, dry areas of India",
    "reference": "https:\/\/rasayanjournal.co.in\/admin\/php\/upload\/3335_pdf.pdf",
-   "images": "Gymnosporia_emarginata.jpeg"
+   "image": "Gymnosporia_emarginata.jpeg"
   },
   {
    "scientific_name": "Hedychium coronarium",
@@ -852,7 +852,7 @@ export const Unani = [
    "part": "Flowers",
    "region_found": "The Eastern Himalayas of India, including Sikkim, Tripura, and North-East India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Hedychium_coronarium.jpeg"
+   "image": "Hedychium_coronarium.jpeg"
   },
   {
    "scientific_name": "Helicteres isora",
@@ -863,7 +863,7 @@ export const Unani = [
    "part": "Dried fruits solvent extract",
    "region_found": "Dry forests in central and western India, from Bihar to Jammu and the Western Peninsula",
    "reference": "https:\/\/doi.org\/10.12980\/apjtb.4.2014c872",
-   "images": "Helicteres_isora.jpeg"
+   "image": "Helicteres_isora.jpeg"
   },
   {
    "scientific_name": "Hemidesmus indicus",
@@ -874,7 +874,7 @@ export const Unani = [
    "part": "Roots",
    "region_found": "Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, Maharashtra, Uttar Pradesh",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1319016419300271?via%3Dihub",
-   "images": "Hemidesmus_indicus.jpeg"
+   "image": "Hemidesmus_indicus.jpeg"
   },
   {
    "scientific_name": "Juniperus communis",
@@ -885,7 +885,7 @@ export const Unani = [
    "part": "Plant extract, rhizome",
    "region_found": "Himalayas in India at altitudes of 1500–4000 meters above sea level.Jammu and Kashmir, Ladakh, Lahaul, Spiti, and Kinnaur of Himachal Pradesh and Uttrakhand",
    "reference": "https:\/\/www.researchgate.net\/publication\/36789083_Current_status_of_herbal_and_their_future_perspectives",
-   "images": "Juniperus_communis.jpeg"
+   "image": "Juniperus_communis.jpeg"
   },
   {
    "scientific_name": "Justicia adhatoda",
@@ -896,7 +896,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Peninsular region and sub Himalayan Range",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Justicia_adhatoda.jpeg"
+   "image": "Justicia_adhatoda.jpeg"
   },
   {
    "scientific_name": "Kaempferia galanga",
@@ -907,7 +907,7 @@ export const Unani = [
    "part": "Rhizome",
    "region_found": "Kerala, Manipur, Meghalaya, Assam, Arunachal Pradesh, Andhra Pradesh, Karnataka, West Bengal, Odisha",
    "reference": "https:\/\/doi.org\/10.1016\/j.jep.2020.112667",
-   "images": "Kaempferia_galanga.jpeg"
+   "image": "Kaempferia_galanga.jpeg"
   },
   {
    "scientific_name": "Linum usitatissimum",
@@ -918,7 +918,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Madhya Pradesh, Uttar Pradesh, Maharashtra, Bihar and Rajasthan and in the region of Western Himalayas",
    "reference": "https:\/\/wjpr.net\/public\/abstract_file\/20797",
-   "images": "Linum_usitatissimum.jpeg"
+   "image": "Linum_usitatissimum.jpeg"
   },
   {
    "scientific_name": "Lippia nodiflora",
@@ -929,7 +929,7 @@ export const Unani = [
    "part": "Leaves extracts",
    "region_found": "States throughout India at riverbanks",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S2210523912000189?via%3Dihub",
-   "images": "Lippia_nodiflora.jpeg"
+   "image": "Lippia_nodiflora.jpeg"
   },
   {
    "scientific_name": "Luffa acutangula",
@@ -940,7 +940,7 @@ export const Unani = [
    "part": "Leaves extracts, methanolic fruit extract",
    "region_found": "South India",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S2210523912000189?via%3Dihub",
-   "images": "Luffa_acutangula.jpeg"
+   "image": "Luffa_acutangula.jpeg"
   },
   {
    "scientific_name": "Mallotus philippinenis",
@@ -951,7 +951,7 @@ export const Unani = [
    "part": "Root ",
    "region_found": "Andhra Pradesh, Telangana, Karnataka, Kerala",
    "reference": "https:\/\/www.researchgate.net\/publication\/366876822_MEDICINAL_EFFECT_OF_KAMEELA_AND_AMRAZE_JILDIYA_SKIN_DISEASES_DESCRIBED_IN_UNANI_SYSTEM_OF_MEDICINE_AND_CURRENT_RESEARCH-AN_OVERVIEW",
-   "images": "Mallotus_philippinenis.jpeg"
+   "image": "Mallotus_philippinenis.jpeg"
   },
   {
    "scientific_name": "Malus domestica",
@@ -962,7 +962,7 @@ export const Unani = [
    "part": "Peels, seeds",
    "region_found": "Jammu & Kashmir, Himachal Pradesh, the hills of Uttar Pradesh and Uttaranchal, Arunachal Pradesh, Nagaland, Punjab, and Sikkim",
    "reference": "https:\/\/www.unanijournal.com\/articles\/186\/5-2-21-261.pdf",
-   "images": "Malus_domestica.jpeg"
+   "image": "Malus_domestica.jpeg"
   },
   {
    "scientific_name": "Mangifera indica",
@@ -973,7 +973,7 @@ export const Unani = [
    "part": "Kernel extract",
    "region_found": "Assam, Manipur, Tripura, Mizoram and Meghalaya.",
    "reference": "Impact of different phytochemical classes and Ayurvedic plants in battle against cancer",
-   "images": "Mangifera_indica.jpeg"
+   "image": "Mangifera_indica.jpeg"
   },
   {
    "scientific_name": "Mappia foetida",
@@ -984,7 +984,7 @@ export const Unani = [
    "part": "Leaves, bark and root",
    "region_found": "Western Ghats in Satara, Pune, Kolhapur, Raigad, Ratangiri and Jargon",
    "reference": "https:\/\/www.researchgate.net\/publication\/36789083_Current_status_of_herbal_and_their_future_perspectives",
-   "images": "Mappia_foetida.jpeg"
+   "image": "Mappia_foetida.jpeg"
   },
   {
    "scientific_name": "Melia azedarach",
@@ -995,7 +995,7 @@ export const Unani = [
    "part": "Bark, seed kernel",
    "region_found": "Northwest India",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8216-0_10",
-   "images": "Melia_azedarach.jpeg"
+   "image": "Melia_azedarach.jpeg"
   },
   {
    "scientific_name": "Memecylon randerianum",
@@ -1006,7 +1006,7 @@ export const Unani = [
    "part": "Leaves extract",
    "region_found": "Western Ghats",
    "reference": "https:\/\/doi.org\/10.1080\/14786419.2020.1756797",
-   "images": "Memecylon_randerianum.jpeg"
+   "image": "Memecylon_randerianum.jpeg"
   },
   {
    "scientific_name": "Munronia pinnata",
@@ -1017,7 +1017,7 @@ export const Unani = [
    "part": "Plant extract",
    "region_found": "West Bengal, Sikkim, Assam, Nagaland, Tripura, Meghalaya, Andhra Pradesh, Karnataka, and Tamil Nadu",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1319016419300271?via%3Dihub",
-   "images": "Munronia_pinnata.jpeg"
+   "image": "Munronia_pinnata.jpeg"
   },
   {
    "scientific_name": "Myrtus communis",
@@ -1028,7 +1028,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Kashmir ",
    "reference": "https:\/\/doi.org\/10.1177\/2156587217718958",
-   "images": "Myrtus_communis.jpeg"
+   "image": "Myrtus_communis.jpeg"
   },
   {
    "scientific_name": "Nardostachys jatamansi",
@@ -1039,7 +1039,7 @@ export const Unani = [
    "part": "Rhizomes ",
    "region_found": "Himalaya and alpine regions of India",
    "reference": "https:\/\/doi.org\/10.1186\/s12906-015-0563-1",
-   "images": "Nardostachys_jatamansi.jpeg"
+   "image": "Nardostachys_jatamansi.jpeg"
   },
   {
    "scientific_name": "Nigella sativa",
@@ -1050,7 +1050,7 @@ export const Unani = [
    "part": "Seeds and oil",
    "region_found": "West Bengal, Punjab, Jharkhand, Himachal Pradesh, Bihar, Assam",
    "reference": "https:\/\/doi.org\/10.1016\/j.chnaes.2020.02.001",
-   "images": "Nigella_sativa.jpeg"
+   "image": "Nigella_sativa.jpeg"
   },
   {
    "scientific_name": "Nyctanthes arbor-tristis",
@@ -1061,7 +1061,7 @@ export const Unani = [
    "part": "Leaves, stem bark",
    "region_found": "East of Assam, Andaman & Nicobar Island, Rajasthan, Jammu & Kashmir, Tripura, and Southward to Godavari, and Madhya Pradesh",
    "reference": "https:\/\/doi.org\/10.1007\/s40011-020-01213-y",
-   "images": "Nyctanthes_tristis.jpeg"
+   "image": "Nyctanthes_tristis.jpeg"
   },
   {
    "scientific_name": "Ocimum sanctum",
@@ -1072,7 +1072,7 @@ export const Unani = [
    "part": "Leaves, ethanolic roots",
    "region_found": "North central India ",
    "reference": "https:\/\/www.plantsjournal.com\/archives\/2018\/vol6issue2\/partB\/6-2-12-979.pdf",
-   "images": "Ocimum_sanctum.jpeg"
+   "image": "Ocimum_sanctum.jpeg"
   },
   {
    "scientific_name": "Operculina turpethum",
@@ -1083,7 +1083,7 @@ export const Unani = [
    "part": "Stem",
    "region_found": "Throughout India",
    "reference": "https:\/\/www.researchgate.net\/profile\/Huda-Nafees\/publication\/349337435_A_comprehensive_review_on_Turbud_Operculina_turpethum_L_A_potential_unani_drug\/links\/602b5dd54585158939a95337\/A-comprehensive-review-on-Turbud-Operculina-turpethum-L-A-potential-unani-drug.pdf",
-   "images": "Operculina_turpethum.jpeg"
+   "image": "Operculina_turpethum.jpeg"
   },
   {
    "scientific_name": "Oroxylum indicum",
@@ -1094,7 +1094,7 @@ export const Unani = [
    "part": "Root and Bark extracts",
    "region_found": "Himalayan foothills, Eastern and Western Ghats, and North East India",
    "reference": "https:\/\/injri.andavancollege.ac.in\/Archivesfile\/2016\/science\/26.pdf",
-   "images": "Oroxylum_indicum.jpeg"
+   "image": "Oroxylum_indicum.jpeg"
   },
   {
    "scientific_name": "Panax ginseng",
@@ -1105,7 +1105,7 @@ export const Unani = [
    "part": "Roots",
    "region_found": "Madhya Pradesh, Gujarat, Punjab, Sindh, Rajasthan, Kerala",
    "reference": "https:\/\/injri.andavancollege.ac.in\/Archivesfile\/2016\/science\/26.pdf",
-   "images": "Panax_ginseng.jpeg"
+   "image": "Panax_ginseng.jpeg"
   },
   {
    "scientific_name": "Pandanus odoratissimus",
@@ -1116,7 +1116,7 @@ export const Unani = [
    "part": "Roots and leaves",
    "region_found": "Coastal districts of Orissa, Andhra Pradesh, Tamil Nadu, and parts of Uttar Pradesh",
    "reference": "https:\/\/doi.org\/10.4103\/2225-4110.129199",
-   "images": "Pandanus_odoratissimus.jpeg"
+   "image": "Pandanus_odoratissimus.jpeg"
   },
   {
    "scientific_name": "Pedalium murex",
@@ -1127,7 +1127,7 @@ export const Unani = [
    "part": "Fruits, leaves",
    "region_found": "Deccan region of India",
    "reference": "https:\/\/doi.org\/10.1016\/j.biopha.2018.04.177",
-   "images": "Pedalium_murex.jpeg"
+   "image": "Pedalium_murex.jpeg"
   },
   {
    "scientific_name": "Phyllanthus amarus",
@@ -1138,7 +1138,7 @@ export const Unani = [
    "part": "Leaves,Stems,Bark,Roots",
    "region_found": "Throughout India",
    "reference": "https:\/\/doi.org\/10.1016\/j.foodres.2007.10.001",
-   "images": "Phyllanthus_amarus.jpeg"
+   "image": "Phyllanthus_amarus.jpeg"
   },
   {
    "scientific_name": "Phyllanthus niruri",
@@ -1149,7 +1149,7 @@ export const Unani = [
    "part": "Methanolic extracts ",
    "region_found": "Tropical coastal areas",
    "reference": "https:\/\/www.plantsjournal.com\/vol2Issue6\/Issue_nov_2014\/19.1.pdf",
-   "images": "Phyllanthus_niruri.jpeg"
+   "image": "Phyllanthus_niruri.jpeg"
   },
   {
    "scientific_name": "Picrorrhizia kurroa",
@@ -1160,7 +1160,7 @@ export const Unani = [
    "part": "Rhizome and roots",
    "region_found": "Himalayan region of India, from Kashmir to Sikkim",
    "reference": "https:\/\/doi.org\/10.22271\/plants.2020.v8.i5c.1212",
-   "images": "Picrorrhizia_kurroa.jpeg"
+   "image": "Picrorrhizia_kurroa.jpeg"
   },
   {
    "scientific_name": "Piper longum",
@@ -1171,7 +1171,7 @@ export const Unani = [
    "part": "Fruit",
    "region_found": "The tropical rainforests of India, including the central Himalayas, Assam, Khasi, Mikir hills, lower Bengal, and evergreen forests of Kerala",
    "reference": "https:\/\/crimsonpublishers.com\/acam\/pdf\/ACAM.000519.pdf",
-   "images": "Piper_longum.jpeg"
+   "image": "Piper_longum.jpeg"
   },
   {
    "scientific_name": "Pleurotus pulmonarius",
@@ -1182,7 +1182,7 @@ export const Unani = [
    "part": "Whole plant",
    "region_found": "Orissa, Karnataka, Maharashtra, Andhra Pradesh, Madhya Pradesh, and West Bengal",
    "reference": "https:\/\/doi.org\/10.22271\/plants.2020.v8.i5c.1212",
-   "images": "Pleurotus_pulmonarius.jpeg"
+   "image": "Pleurotus_pulmonarius.jpeg"
   },
   {
    "scientific_name": "Plumbago zeylanica",
@@ -1193,7 +1193,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Uttar Pradesh, West Bengal, Maharashtra, South India, Assam, Bihar, Rajasthan, and Tamil Nadu",
    "reference": "https:\/\/www.researchgate.net\/publication\/228478027_Ethnomedicinal_plants_for_cancer_therapy_A_review",
-   "images": "Plumbago_zeylanica.jpeg"
+   "image": "Plumbago_zeylanica.jpeg"
   },
   {
    "scientific_name": "Podophyllum emodi",
@@ -1204,7 +1204,7 @@ export const Unani = [
    "part": "Rhizome, roots and fruit",
    "region_found": "Northern Himalayan region, from Kashmir to Sikkim, especially in fir forests",
    "reference": "https:\/\/www.researchgate.net\/publication\/36789083_Current_status_of_herbal_and_their_future_perspectives",
-   "images": "Podophyllum_emodi.jpeg"
+   "image": "Podophyllum_emodi.jpeg"
   },
   {
    "scientific_name": "Podophyllum hexandrum",
@@ -1215,7 +1215,7 @@ export const Unani = [
    "part": "Rhizome",
    "region_found": "Northern India, Kashmir",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S235240731500030X?via%3Dihub",
-   "images": "Podophyllum_hexandrum.jpeg"
+   "image": "Podophyllum_hexandrum.jpeg"
   },
   {
    "scientific_name": "Portulaca oleracea",
@@ -1226,7 +1226,7 @@ export const Unani = [
    "part": "Seed Oil",
    "region_found": "Punjab, Uttar Pradesh, Bihar, West Bengal, Assam, Orissa, Gujarat, Maharashtra, Tamil Nadu, and Karnataka",
    "reference": "https:\/\/www.researchgate.net\/publication\/333199572_Pharmacological_profile_phytoconstituents_and_traditional_uses_of_Khurfa_Portulaca_oleracea_L_Unani_perspective",
-   "images": "Portulaca_oleracea.jpeg"
+   "image": "Portulaca_oleracea.jpeg"
   },
   {
    "scientific_name": "Psoralea corylifolia",
@@ -1237,7 +1237,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Central India and Eastern part of Rajasthan, Punjab, Uttar Pradesh",
    "reference": "https:\/\/www.unanijournal.com\/articles\/123\/4-1-1-210.pdf",
-   "images": "Psoralea_corylifolia.jpeg"
+   "image": "Psoralea_corylifolia.jpeg"
   },
   {
    "scientific_name": "Pterocarpus marsupium",
@@ -1248,7 +1248,7 @@ export const Unani = [
    "part": "Leaves Flowers",
    "region_found": "Central, western, and southern regions of India",
    "reference": "https:\/\/www.thepharmajournal.com\/archives\/2016\/vol5issue4\/partA\/5-1-8.pdf",
-   "images": "Pterocarpus_marsupium\n.jpeg"
+   "image": "Pterocarpus_marsupium\n.jpeg"
   },
   {
    "scientific_name": "Punica granatum",
@@ -1259,7 +1259,7 @@ export const Unani = [
    "part": "Aqueous pericarp extract, seed oil",
    "region_found": "Maharashtra, Gujarat, Karnataka, Andhra Pradesh, Tamil Nadu, Madhya Pradesh, and Rajasthan",
    "reference": "https:\/\/www.ijpsr.info\/docs\/IJPSR16-07-10-014.pdf",
-   "images": "Punica_granatum.jpeg"
+   "image": "Punica_granatum.jpeg"
   },
   {
    "scientific_name": "Rheum australe",
@@ -1270,7 +1270,7 @@ export const Unani = [
    "part": "Rhizomes",
    "region_found": "Sub-alpine and alpine Himalayas",
    "reference": "https:\/\/link.springer.com\/article\/10.1007\/s11101-018-9551-7",
-   "images": "Rheum_australe.jpeg"
+   "image": "Rheum_australe.jpeg"
   },
   {
    "scientific_name": "Ricinus communis",
@@ -1281,7 +1281,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Throughout India",
    "reference": "https:\/\/www.doc-developpement-durable.org\/file\/Culture\/Plantes-Medicinales-Aromatiques\/FICHES_PLANTES\/ricin\/RICINUS%20COMMUNIS_Research%20Journal%20Chemistry.pdf",
-   "images": "Ricinus_communis.jpeg"
+   "image": "Ricinus_communis.jpeg"
   },
   {
    "scientific_name": "Rosmarinus officinalis",
@@ -1292,7 +1292,7 @@ export const Unani = [
    "part": "Whole plant",
    "region_found": "Himalayan region of Uttarakhand",
    "reference": "https:\/\/doi.org\/10.22271\/plants.2020.v8.i5c.1212",
-   "images": "Rosmarinus_officinalis.jpeg"
+   "image": "Rosmarinus_officinalis.jpeg"
   },
   {
    "scientific_name": "Rubia cordifolia",
@@ -1303,7 +1303,7 @@ export const Unani = [
    "part": "Root",
    "region_found": "Northwest Himalayas",
    "reference": "https:\/\/doi.org\/10.1016\/j.jep.2014.06.029",
-   "images": "Rubia_cordifolia.jpeg"
+   "image": "Rubia_cordifolia.jpeg"
   },
   {
    "scientific_name": "Ruta graveolens",
@@ -1314,7 +1314,7 @@ export const Unani = [
    "part": "Roots and aerial parts",
    "region_found": "Karnataka",
    "reference": "https:\/\/www.researchgate.net\/publication\/256090732_Ruta_graveolens_from_Traditional_System_of_Medicine_to_Modern_Pharmacology_an_Overview",
-   "images": "Ruta_graveolens.jpeg"
+   "image": "Ruta_graveolens.jpeg"
   },
   {
    "scientific_name": "Saraca asoca",
@@ -1325,7 +1325,7 @@ export const Unani = [
    "part": "Flowers",
    "region_found": "Throughout India",
    "reference": "https:\/\/www.jocpr.com\/articles\/saraca-asoca-ashoka-a-review.pdf",
-   "images": "Saraca_asoca.jpeg"
+   "image": "Saraca_asoca.jpeg"
   },
   {
    "scientific_name": "Saussurea lappa",
@@ -1336,7 +1336,7 @@ export const Unani = [
    "part": "Roots",
    "region_found": "Sub alpine region of Jammu and Kashmir, Himachal Pradesh and Uttarakhand",
    "reference": "https:\/\/doi.org\/10.1016\/j.jarmap.2020.100277",
-   "images": "Saussurea_lappa.jpeg"
+   "image": "Saussurea_lappa.jpeg"
   },
   {
    "scientific_name": "Smilax zeylanica",
@@ -1347,7 +1347,7 @@ export const Unani = [
    "part": "Roots",
    "region_found": "Kerala, Karnataka, Tamil Nadu, Andhra Pradesh, Odisha, West Bengal, Bihar, Jharkhand, Maharashtra",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1319016419300271?via%3Dihub",
-   "images": "Smilax_zeylanica.jpeg"
+   "image": "Smilax_zeylanica.jpeg"
   },
   {
    "scientific_name": "Swertia chirayta",
@@ -1358,7 +1358,7 @@ export const Unani = [
    "part": "Whole plant",
    "region_found": "Himalayas and in hills of Meghalaya.",
    "reference": "https:\/\/core.ac.uk\/download\/pdf\/82849271.pdf",
-   "images": "Swertia_chirayta.jpeg"
+   "image": "Swertia_chirayta.jpeg"
   },
   {
    "scientific_name": "Syzygium aromaticum",
@@ -1369,7 +1369,7 @@ export const Unani = [
    "part": "Flower buds",
    "region_found": "Kerala and Tamil Nadu, Western Ghats and Nilgiri Hills ",
    "reference": "https:\/\/wjpr.net\/abstract_file\/15351",
-   "images": "Syzygium_aromaticum.jpeg"
+   "image": "Syzygium_aromaticum.jpeg"
   },
   {
    "scientific_name": "Syzygium cumini",
@@ -1380,7 +1380,7 @@ export const Unani = [
    "part": "Fruit extract, leaf, seed ",
    "region_found": "Indo-Gangetic plains in the north to Tamil Nadu in the south. It's also found in Madhya Pradesh",
    "reference": "https:\/\/www.ijpsr.info\/docs\/IJPSR16-07-10-014.pdf",
-   "images": "Syzygium_cumini.jpeg"
+   "image": "Syzygium_cumini.jpeg"
   },
   {
    "scientific_name": "Taxus baccata",
@@ -1391,7 +1391,7 @@ export const Unani = [
    "part": "Entire plant",
    "region_found": "Arunachal Pradesh",
    "reference": "https:\/\/doi.org\/10.1016\/j.jep.2021.114204",
-   "images": "Taxus_baccata.jpeg"
+   "image": "Taxus_baccata.jpeg"
   },
   {
    "scientific_name": "Taxus brevifolia",
@@ -1402,7 +1402,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Himalayan region of India, from Kashmir to Sikkim",
    "reference": "https:\/\/www.researchgate.net\/publication\/36789083_Current_status_of_herbal_and_their_future_perspectives",
-   "images": "Taxus_brevifolia.jpeg"
+   "image": "Taxus_brevifolia.jpeg"
   },
   {
    "scientific_name": "Terminalia bellirica",
@@ -1413,7 +1413,7 @@ export const Unani = [
    "part": "Fruit pulp",
    "region_found": "Uttar Pradesh, Madhya Pradesh, Maharashtra, Karnataka, Tamil Nadu, Kerala, and Assam",
    "reference": "https:\/\/www.thepharmajournal.com\/vol3Issue7\/19.1.html",
-   "images": "Terminalia_bellirica.jpeg"
+   "image": "Terminalia_bellirica.jpeg"
   },
   {
    "scientific_name": "Thespesia populnea",
@@ -1424,7 +1424,7 @@ export const Unani = [
    "part": "Bark",
    "region_found": "Tropical forests in India",
    "reference": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S1319016419300271?via%3Dihub",
-   "images": "Thespesia_populnea.jpeg"
+   "image": "Thespesia_populnea.jpeg"
   },
   {
    "scientific_name": "Tinospora cordifolia",
@@ -1435,7 +1435,7 @@ export const Unani = [
    "part": "Stem, root",
    "region_found": "Throughout India",
    "reference": "https:\/\/www.plantsjournal.com\/archives\/2018\/vol6issue6\/partD\/6-6-29-543.pdf",
-   "images": "Tinospora_cordifolia.jpeg"
+   "image": "Tinospora_cordifolia.jpeg"
   },
   {
    "scientific_name": "Trachyspermum ammi",
@@ -1446,7 +1446,7 @@ export const Unani = [
    "part": "Seeds",
    "region_found": "Gujarat and Rajasthan",
    "reference": "https:\/\/www.unanijournal.com\/articles\/139\/4-2-22-360.pdf",
-   "images": "Trachyspermum_ammi.jpeg"
+   "image": "Trachyspermum_ammi.jpeg"
   },
   {
    "scientific_name": "Tribulus terrestris",
@@ -1457,7 +1457,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "West Rajasthan and Gujarat",
    "reference": "https:\/\/www.researchgate.net\/publication\/348994972_A_Comprehensive_Review_on_a_Unani_Medicinal_Plant_Tribulus_terrestris_Linn",
-   "images": "Tribulus_terrestris.jpeg"
+   "image": "Tribulus_terrestris.jpeg"
   },
   {
    "scientific_name": "Urtica dioica",
@@ -1468,7 +1468,7 @@ export const Unani = [
    "part": "Leaves,Roots,Seeds",
    "region_found": "Himalayan Region,North-Eastern States of india,Western Ghats",
    "reference": "https:\/\/doi.org\/10.1016\/j.jep.2021.114204",
-   "images": "Urtica_dioica.jpeg"
+   "image": "Urtica_dioica.jpeg"
   },
   {
    "scientific_name": "Vaccinium myrtillus",
@@ -1479,7 +1479,7 @@ export const Unani = [
    "part": "Ripe berries",
    "region_found": "Jammu and Kashmir, Uttar Pradesh, and Himachal Pradesh",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Vaccinium_myrtillus.jpeg"
+   "image": "Vaccinium_myrtillus.jpeg"
   },
   {
    "scientific_name": "Vateria indica",
@@ -1490,7 +1490,7 @@ export const Unani = [
    "part": "Stem bark, resin and oils",
    "region_found": "Western Ghats of India, Maharashtra, Karnataka, Kerala, and Tamil Nadu",
    "reference": "https:\/\/www.ijarnd.com\/manuscripts\/v4i2\/V4I2-1136.pdf",
-   "images": "Vateria_indica.jpeg"
+   "image": "Vateria_indica.jpeg"
   },
   {
    "scientific_name": "Viola odorata",
@@ -1501,7 +1501,7 @@ export const Unani = [
    "part": "Root and Flowers",
    "region_found": "Himalaya, especially Kashmir",
    "reference": "https:\/\/www.unanijournal.com\/articles\/172\/5-2-2-368.pdf",
-   "images": "Viola_odorata.jpeg"
+   "image": "Viola_odorata.jpeg"
   },
   {
    "scientific_name": "Viscum album",
@@ -1512,7 +1512,7 @@ export const Unani = [
    "part": "Leaves",
    "region_found": "Kashmir",
    "reference": "https:\/\/www.florajournal.com\/archives\/2018\/vol6issue1\/partA\/6-6-27-702.pdf",
-   "images": "Viscum_album.jpeg"
+   "image": "Viscum_album.jpeg"
   },
   {
    "scientific_name": "Vitex negundo",
@@ -1523,7 +1523,7 @@ export const Unani = [
    "part": "Leaves, flowers",
    "region_found": "Nallamala Hills of India",
    "reference": "https:\/\/injri.andavancollege.ac.in\/Archivesfile\/2016\/science\/26.pdf",
-   "images": "Vitex_negundo.jpeg"
+   "image": "Vitex_negundo.jpeg"
   },
   {
    "scientific_name": "Vitis vinifera",
@@ -1534,7 +1534,7 @@ export const Unani = [
    "part": "Leaves and fruit",
    "region_found": "Maharashtra, Karnataka, Andhra Pradesh, and Tamil Nadu",
    "reference": "https:\/\/link.springer.com\/chapter\/10.1007\/978-981-10-8291-7_11",
-   "images": "Vitis_vinifera.jpeg"
+   "image": "Vitis_vinifera.jpeg"
   },
   {
    "scientific_name": "Withania somnifera",
@@ -1545,7 +1545,7 @@ export const Unani = [
    "part": "Root, leaves",
    "region_found": "Rajasthan, Punjab, Haryana, Uttar Pradesh, Gujarat, Maharashtra and Madhya Pradesh ",
    "reference": "https:\/\/www.thaiscience.info\/journals\/Article\/IJAT\/10841172.pdf",
-   "images": "Withania_somnifera.jpeg"
+   "image": "Withania_somnifera.jpeg"
   },
   {
    "scientific_name": "Zingiber officinale",
@@ -1556,7 +1556,7 @@ export const Unani = [
    "part": "Root and rhizome ",
    "region_found": "Karnataka, Orissa, Assam, Meghalaya, Arunachal Pradesh, and Gujarat.",
    "reference": "https:\/\/doi.org\/10.1016\/B978-0-12-817592-7.00023-X",
-   "images": "Zingiber_officinale.jpeg"
+   "image": "Zingiber_officinale.jpeg"
   }
  ];
 
