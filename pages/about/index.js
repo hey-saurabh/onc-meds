@@ -1,16 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from "./about.module.scss";
-import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import { Ayurvedic, FDA, Unani } from '../../utils/misc';
-import TableComponent from '@/components/TableComponent';
-import { Col, Drawer, Input, Row, Select } from 'antd/lib';
-import { Card } from 'antd/lib';
-import Link from 'next/link';
 
 const AboutPage = ({ isDark, setIsDark, toggleDark }) => {
-  const [searchValue, setSearchValue] = useState("");
-  const [database, setDatabase] = useState(null);
-  const [criteria, setCriteria] = useState(null);
 
   return (
     <div className={styles.mainDiv}>
@@ -22,8 +13,8 @@ const AboutPage = ({ isDark, setIsDark, toggleDark }) => {
       </div>
       <div className={`pageContainer ${styles.dashboardContainer}`}>
         
-        <div className={`${styles.dashboardTextContainer} ${isDark ? "text-white" : ""}`}>
-          <p className='text-center font-medium text-lg'>OncMeds is meticulously curated to illuminate the vast potential of Indian medicinal plants in the fight against cancer. It delves into their historical use and explores their possibilities as complementary or alternative approaches to conventional treatments.</p>
+        <div className={`${styles.dashboardTextContainer}`}>
+          <p className='text-center font-semibold text-lg'>OncMeds is meticulously curated to illuminate the vast potential of Indian medicinal plants in the fight against cancer. It delves into their historical use and explores their possibilities as complementary or alternative approaches to conventional treatments.</p>
           <ul>
             <li>
               <div>
