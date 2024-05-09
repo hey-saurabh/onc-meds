@@ -25,6 +25,23 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
   const searchHandler = () => {
     setIsSearch(true);
     if(database == "all") {
+      const data1 = Unani.map((item, index) => {
+        return {
+          ...item, id: index+1
+        }
+      })
+      const data2 = Ayurvedic.map((item, index) => {
+        return {
+          ...item, id: index+1
+        }
+      })
+      const data3 = FDA.map((item, index) => {
+        return {
+          ...item, id: index+1
+        }
+      })
+      const data = [...data1, ...data2, ...data3]
+      setTableData(data);
     } else if (database == "unani") {
       const data = Unani.map((item, index) => {
         return {
