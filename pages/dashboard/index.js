@@ -24,59 +24,32 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
 
   const searchHandler = () => {
     setIsSearch(true);
-    if(database == "all") {
-      const data1 = Unani.map((item, index) => {
-        return {
-          ...item, id: index+1
-        }
-      })
-      const data2 = Ayurvedic.map((item, index) => {
-        return {
-          ...item, id: index+1
-        }
-      })
-      const data3 = FDA.map((item, index) => {
-        return {
-          ...item, id: index+1
-        }
-      })
-      const data = [...data1, ...data2, ...data3]
-      setTableData(data);
-    } else if (database == "unani") {
-      const data = Unani.map((item, index) => {
-        return {
-          ...item, id: index+1
-        }
-      })
-      setTableData(data)
-    } else if(database == 'ayurvedic') {
-      const data = Ayurvedic.map((item, index) => {
-        return {
-          ...item, id: index+1
-        }
-      })
-      setTableData(data)
-    } else if(database == "fda"){
-      const data = FDA.map((item, index) => {
-        return {
-          ...item, id: index+1
-        }
-      })
-      setTableData(data)
+    let filteredData = [];
+    if (database === "all") {
+      filteredData = [...Unani, ...Ayurvedic, ...FDA];
+    } else if (database === "unani") {
+      filteredData = Unani;
+    } else if (database === "ayurvedic") {
+      filteredData = Ayurvedic;
+    } else if (database === "fda") {
+      filteredData = FDA;
     }
-    // try {
-    //   const response = await fetch(url + endpoint, obj)
-    //   .then((res) => res.json())
-    //   .then((response) => response)
-    //   .catch((error) => error);
-
-    //   if(response.meta.code == 200) {
-    //     setData(response.data);
-    //   }
-    // } catch (err) {
-    //   console.error(err);
-    // }
+  
+    // Filter based on search value and criteria
+    filteredData = filteredData.filter(item => {
+      if (criteria === "scientific_name") {
+        return item.scientific_name.toLowerCase().includes(searchValue.toLowerCase());
+      } else if (criteria === "common_name") {
+        return item.common_name.toLowerCase().includes(searchValue.toLowerCase());
+      } else if (criteria === "type_of_cancer") {
+        return item.type_of_cancer.toLowerCase().includes(searchValue.toLowerCase());
+      }
+      return true; // If no criteria is selected, return all data
+    });
+  
+    setTableData(filteredData);
   }
+  
 
   if(!isSearch) {
     return (
