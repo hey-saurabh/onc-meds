@@ -189,6 +189,11 @@ const Dashboard = ({ isDark, setIsDark, toggleDark }) => {
                 <Col span={1}>:</Col>
                 <Col className='text-base font-medium' span={17}>{selectedRowData.compound}</Col>
               </Row>
+              {selectedRowData.fda_approved_drug && <Row className='mb-2'>
+                <Col span={6} className='text-lg font-medium'>FDA Approved Drug</Col>
+                <Col span={1}>:</Col>
+                <Col className='text-base font-medium' span={17}>{selectedRowData.fda_approved_drug}</Col>
+              </Row>}
               <Row className='mb-2'>
                 <Col span={6} className='text-lg font-medium'>Part of Plant</Col>
                 <Col span={1}>:</Col>
